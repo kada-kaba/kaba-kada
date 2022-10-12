@@ -53,6 +53,7 @@ nav a:hover {
     position: absolute;
     display: flex;
 
+    rotate: 45deg;
     translate: -50% -50%;
 
     transition-duration: 0.2s;
@@ -62,7 +63,8 @@ nav a:hover {
     flex-grow: 1;
     flex-shrink: 1;
 
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 5px;
     border: 4px solid var(--gray);
     padding: 2px;
 
@@ -76,9 +78,10 @@ nav a:hover {
 
     flex-grow: 1;
     flex-shrink: 1;
+    border-radius: 5px;
 
     background-color: var(--gray);
-    border-radius: 50%;
+    /* border-radius: 50%; */
 
     transition-duration: inherit;
 }

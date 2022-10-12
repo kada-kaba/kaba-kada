@@ -18,6 +18,8 @@ nav {
     backdrop-filter: blur(2px);
 
     z-index: 10;
+
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 nav a {
@@ -109,7 +111,7 @@ nav a:hover {
     filter: drop-shadow(0 3px 0px var(--gray));
 }
 
-#grid {
+#cards {
     position: relative;
     padding: 5vw 0vw;
     display: flex;
@@ -145,14 +147,14 @@ nav a:hover {
 }
 
 .card:hover .card-tint {
-    background-color: rgba(83, 147, 88, 0.2);
+    background-color: rgba(83, 147, 88, 0.25);
 }
 
 .card-content {
     width: 43vw;
     height: 45%;
 
-    bottom: -25%;
+    bottom: -20%;
 
     position: absolute;
 
@@ -163,12 +165,13 @@ nav a:hover {
 }
 
 .card:hover .card-content {
-    bottom: 5%;
+    bottom: 10%;
 }
 
 .card h2 {
     height: 5%;
     font-size: 2.5vw;
+    letter-spacing: 4px;
 }
 
 .card p {
@@ -195,4 +198,32 @@ nav a:hover {
 
 #sumatra-card {
     background-image: url(../image/sumatra.jpg);
+}
+
+@media only screen and (max-width: 1000px){
+    nav a {
+        font-size: 4vw;
+    }
+    
+    .card {
+        width: 90vw;
+    }
+
+    .card-content {
+        bottom: -25%;
+    }
+
+    .card:hover .card-content {
+        bottom: -5%;
+    }
+
+    .card h2 {
+        font-size: 4vw;
+    }
+
+    .card p {
+        width: 50vw;
+        margin-top: 15%;
+        font-size: 2vw;
+    }
 }

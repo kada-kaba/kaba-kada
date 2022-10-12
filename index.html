@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style/style.css">
-    <title>WebTech</title>
+    <link rel="stylesheet" href="style/index.css">
+    <title>Kada Kaba</title>
 </head>
 <body>
     <div id="map-container">
-        <img id="map" src="image/map.webp" width="100%">
-        <a href="page/forest/amazon.html" class="point" id="p0" style="left: 32%; top: 48%">
-            <div><div></div></div>
-        </a>
-        <a href="page/forest/congo.html" class="point" id="p1" style="left: 55%; top: 48%">
-            <div><div></div></div>
-        </a>
-        <a href="" class="point" id="p2" style="left: 82%; top: 50%">
-            <div><div></div></div>
-        </a>
-        <a href="" class="point" id="p3" style="left: 80%; top: 33%">
-            <div><div></div></div>
-        </a>
+        <div id="map-tint">
+            <img id="map" src="image/map.webp" width="100%">
+            <a href="page/forest/amazon.html" class="point" id="p0" style="left: 32%; top: 48%">
+                <div><div></div></div>
+            </a>
+            <a href="page/forest/congo.html" class="point" id="p1" style="left: 55%; top: 48%">
+                <div><div></div></div>
+            </a>
+            <a href="page/forest/xishuangbanna.html" class="point" id="p3" style="left: 80%; top: 33%">
+                <div><div></div></div>
+            </a>
+            <a href="page/forest/sumatra.html" class="point" id="p2" style="left: 81.5%; top: 50%">
+                <div><div></div></div>
+            </a>
+        </div>
     </div>
     <div id="page">
         <nav>
@@ -29,6 +37,40 @@
             <a href="">OUR WORK</a>
             <a href="">NEWS</a>
         </nav>
+        <div id="cards">
+            <a href="page/forest/amazon.html" class="card" id="amazon-card">
+                <div class="card-tint">
+                    <div class="card-content">
+                        <h2 class="card-title">Amazon</h2>
+                        <p class="card-text">Amazon is the largest rainforest in the world. The foret is often referred to as "the lungs of the earth". Read more...</p>
+                    </div>
+                </div>
+            </a>
+            <a href="page/forest/congo.html" class="card" id="congo-card">
+                <div class="card-tint">
+                    <div class="card-content">
+                        <h2 class="card-title">Congo</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="page/forest/xishuangbanna.html" class="card" id="xishuangbanna-card">
+                <div class="card-tint">
+                    <div class="card-content">
+                        <h2 class="card-title">Xishuangbanna</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="page/forest/sumatra.html" class="card" id="sumatra-card">
+                <div class="card-tint">
+                    <div class="card-content">
+                        <h2 class="card-title">Sumatra</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 </body>
 </html>

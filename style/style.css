@@ -13,6 +13,8 @@ body, html{
     font-family: 'Patrick Hand', cursive;
 }
 
+// OUR WORK
+
 #container {
     background-color: blue;
     height: 30%;
@@ -28,3 +30,23 @@ body, html{
 
     
 }
+
+#ourworkh1 {
+    position: absolute;
+    left: 400px ;
+    top: 45%;
+}
+
+#information-box {
+    position: relative;
+}
+
+
+#ourworkp {
+    max-width: 75ch;
+    margin-top: 300px%;
+}
+
+
+
+// OUR WORK

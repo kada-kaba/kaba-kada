@@ -5,71 +5,93 @@ body {
 }
 
 /* position and style the navbar */
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: #615B5B;
-    font-size: 20px;    
+    width: 80%;
+    margin: 0 auto;
 
-    /* position sticky */
-    position: sticky;
-    top: 0;
-}
-.logo  {
-    display: flex;
-    justify-content: center;
-    margin-left: 5%;
-    height: 150px;
-    width: 150px;
-}
-.logo a {
-    height: 120px;
-    width: 120px;
-    background-color: #156102;
 }
 
-.main-nav {
-    display: flex;
-    width: 50%;
+
+header {
+    background: #615B5B;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    padding: 10px 0;
+
+}
+
+
+nav ul {
     float: right;
-    margin-right: 2%;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative; /* makes nav a:before position relative to li */ 
+}
+
+nav a {
+    color: #A49F9F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
     
 }
-li {
-    height: 50px;
-    width: 50px;
-}
-.main-nav li:hover {
-    background-color: #156102;
 
-}
-.main-nav li {
-    display: inline;
-    color: white;
-}
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    
+    background-color: #A49F9F;
+    position: absolute; /* position the before element, absolute to nav li */
+    top: 0;
+    width: 0%;
 
-.main-nav li a {
-    color: #A49F9F;
+    transition: all ease-in-out 250ms; /* transition effect on hover */
 }
 
+nav a:hover::before { /* when hovering over a, the before element will animate to 100% width */
+    width: 100%;
+}
 
-
-@media 
-    (prefers-reduced-motion: no-preference) {
-        html {
-            scroll-behavior: smooth;
-        }
-    }
-
+nav a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #A49F9F;
+    position: absolute; /* position the after element, absolute to nav li */
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms; /* transition effect on hover */
+    
+}
 img {
-    width: 115px;
-    height: 115px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    
 }
 
+img:hover {
+    box-shadow: #d3cfcf 0px 0px 10px;
 
+}

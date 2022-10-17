@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/index.css">
     <title>Kada Kaba</title>
+
+    <script defer src="index.js"></script>
 </head>
 <body>
-    <div id="map-container">
+    <section id="map-container">
         <div id="map-tint">
             <img id="map" src="image/map.webp" width="100%">
             <a href="page/forest/amazon.html" class="point" id="p0" style="left: 32%; top: 48%">
@@ -30,14 +28,34 @@
                 <div><div></div></div>
             </a>
         </div>
-    </div>
+    </section>
+
     <div id="page">
         <nav>
-            <a href="page/our-work/our-work.html">ABOUT US</a>
+            <a href="page/about-us/about-us.html">ABOUT US</a>
             <a href="page/our-work/our-work.html">OUR WORK</a>
             <a href="">NEWS</a>
         </nav>
-        <div id="cards">
+
+        <section id="raised"> 
+            <h1 id="raised-counter" class="counter">
+                1.000.000
+            </h1>
+            <h2>
+                RAISED
+            </h2>
+            <h2>
+                FROM...
+            </h2>
+            <h1 id="raised-counter" class="counter">
+                10.000
+            </h1>
+            <h2>
+                GENEROUS CONTRIBUTORS
+            </h2>
+        </section>
+
+        <section id="cards">
             <a href="page/forest/amazon.html" class="card" id="amazon-card">
                 <div class="card-tint">
                     <div class="card-content">
@@ -70,7 +88,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </section>
     </div>
 </body>
 </html>

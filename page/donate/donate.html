@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/donate.css">
+    <title>Donate</title>
+</head>
+<body>
+    <div class="donate-main-wrapper">
+        <h1>Donate</h1>
+        <div class="donate-box-wrapper">
+            <div class="donate-text-wrapper">
+                <p>Save the rainforest! What we do together over the next few years to conserve forests will determine the fate of our planet.
+                    Your gift makes a tangible difference in the fight to save some of the world’s rarest and most trafficked wildlife, care for communities and protect our planet.
+                    It costs us eleven kroner to plant one new tree in the rainforest. We thank you for your support!</p>
+            </div>
+            <div class="donate-input-wrapper">
+                <div class="donate-form-wrapper">
+                    <div id="donate-form-heading"><h4>Select an amount:</h4></div>
+                    <div class="donate-amount-buttons">
+                        <button class="amount-button" id="amount-button-100">100kr</button>
+                        <button class="amount-button" id="amount-button-200">200kr</button>
+                        <button class="amount-button" id="amount-button-500">500kr</button>
+                        <button class="amount-button" id="amount-button-1000">1000kr</button>
+                    </div>
+                    <div class="donate-input-label-wrapper">
+                        <div>
+                            <label for="donate-amount-input">Amount(kr):</label>
+                            <input id="donate-amount-input" placeholder="0" type="number">
+                        </div>
+                        <div>
+                            <label for="donate-howoften-input">How often:</label>
+                            <select name="howoften" id="donate-howoften-input" placeholder="0" type="text">
+                                <option value="once">Once</option>
+                                <option selected="selected" value="per week">Per week</option>
+                                <option value="per month">Per month</option>
+                                <option value="per year">Per year</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="donate-input-label-wrapper">
+                        <div>
+                            <label for="donate-name-input">Name:</label>
+                            <input id="donate-name-input" placeholder="" type="text">
+                        </div>
+                        <div>
+                            <label for="donate-email-input">Email:</label>
+                            <input id="donate-email-input" placeholder="example@email.com" type="email">
+                        </div>
+                    </div>
+                    <div class="donate-button-wrapper">
+                        <button id="donate-submit-button">Donate</button>
+                    </div>
+                </div>
+                <div class="donate-image-wrapper">                  
+                    <img src="../../image/donate-save-rainforest.jpg" alt="">        
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="../../script/money-donated.js"></script>
+</html>

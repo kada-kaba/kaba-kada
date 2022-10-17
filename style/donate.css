@@ -1,0 +1,193 @@
+body {
+    background-color: #B7D1DA;
+}
+
+.donate-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.donate-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 90vw;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+}
+
+.donate-text-wrapper {
+    height: 20%;
+    padding: 20px 60px 0px 60px;
+    font-size: 18px;
+}
+
+.donate-input-wrapper {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.donate-form-wrapper {
+    width: 50%;
+    padding: 20px 60px 0px 60px;
+}
+
+#donate-form-heading{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.donate-image-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.donate-image-wrapper img {
+    max-width: 500px;
+    margin-bottom: -50px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.donate-amount-buttons button {
+    background-color: #156102;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 3px 0px grey;
+}
+
+.donate-amount-buttons button:hover{
+    cursor: pointer;
+    background-color: #104A02;
+    transition: 0.15s ease;
+}
+
+.donate-input-label-wrapper {
+    display: flex;
+    padding-top: 20px;
+}
+
+.donate-input-label-wrapper div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+input, select {
+    width: 180px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+.donate-button-wrapper {
+    display: flex;
+    align-items: center;
+    height: 25%;
+}
+
+.donate-button-wrapper button {
+    font-size: 22px;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #156102;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 5px 0px grey;
+}
+
+.donate-button-wrapper button:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #104A02;
+    animation-duration: 0.3s;
+    padding: 7px 20px 7px 20px;
+}
+
+.donate-button-wrapper button:active, .donate-amount-buttons button:active {
+    transform: translate(1px,1px);
+}
+
+@media screen and (max-width: 1225px){
+    .donate-image-wrapper {
+        display: none;
+    }
+
+    .donate-box-wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .donate-text-wrapper {
+        width: 40%;
+        height: fit-content;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .donate-input-wrapper {
+        width: 60%;
+    }
+
+    .donate-form-wrapper {
+        padding-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .donate-box-wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0 50px 0;
+    }
+
+    .donate-text-wrapper, .donate-input-wrapper {
+        width: 90%;
+        padding: 0;
+    }
+
+    .donate-form-wrapper {
+        padding: 0;
+    }
+
+    .donate-form-wrapper div{
+        width: 100%;
+        padding: 10px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .donate-amount-buttons button{
+        margin: 0 2% 0 2%;
+    }
+
+
+    .donate-text-wrapper {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .donate-amount-buttons button, #donate-form-heading {
+        display: none;
+    }
+
+    .donate-input-label-wrapper {
+        flex-direction: column;
+    }
+}

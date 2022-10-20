@@ -1,0 +1,61 @@
+body {
+    background-color: #B7D1DA;
+}
+
+.contact-image-wrapper {
+    height: 25vh;
+    width: 100vw;
+}
+.contact-image-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-info-wrapper {
+    width: 70%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info-wrapper div {
+    margin: 0 0 30px 10%;
+}
+
+#contact-submit-button {
+    background-color: #156102;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 3px 0px grey;
+}
+
+#contact-submit-button:hover{
+    cursor: pointer;
+    background-color: #104A02;
+    transition: 0.3s ease;
+}
+
+#contact-submit-button:active {
+    transform: translate(1px,1px);
+}
+
+.conatct-message-wrapper textarea {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 620px){
+    .contact-info-wrapper {
+        width: 85%;
+    }
+}

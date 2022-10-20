@@ -8,10 +8,11 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 75px;
     
     z-index: 15;
     background-color: var(--gray);
+    /* background-color: rgba(20, 20, 20, 0.5); */
 
     display: flex;
     flex-direction: row;
@@ -40,11 +41,14 @@ nav a {
     text-decoration: none;
     color: white;
 
-    transition: color;
-    transition-duration: 0.2s;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 
     letter-spacing: 1px;
+    transition: color 0.1s;
+}
+
+nav a:hover {
+    color:var(--green);
 }
 
 /* Dansemoves fra Mikkes klubbhus */
@@ -52,8 +56,8 @@ nav a {
 #donate-button {
     position: absolute;
     /* height: 100%; */
-    right: 10px;
-    bottom: -10px;
+    right: 25px;
+    bottom: -5px;
 
     padding: 10px 3vw;
 
@@ -66,8 +70,12 @@ nav a {
     border-bottom-width: 0.25vw;
 }
 
+#donate-button:hover {
+    color: white;
+}
+
 #map-container {
-    margin-top: 50px;
+    margin-top: 100px;
     position: relative;
     background-size: cover;
     background-image: url(../image/amazon-large.webp);

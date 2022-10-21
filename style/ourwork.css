@@ -18,6 +18,7 @@ body {
    align-items: center;
     object-fit: cover;
 
+
     
 }
 
@@ -27,11 +28,20 @@ body {
     margin-top: 100px;
     width: 35%;
     font-size: 18px;
+    float: left;
 }
 
-div.man-in-forest {
+#man-in-forest {
+    width: 500px;
+    display: inline-block;
     position: relative
-    width: 50px;
+    float: right;
+    margin: 100px 0 0 150px !important;
+    border-radius: 10px
+  
+
+
+  
     
 }
 

@@ -1,4 +1,6 @@
-
+body {
+    background-color: #B7D1DA;
+}
 
 
 
@@ -23,7 +25,14 @@
     position: relative;
     margin-left: 10%;
     margin-top: 100px;
-    width: 50%;
+    width: 35%;
+    font-size: 18px;
+}
+
+div.man-in-forest {
+    position: relative
+    width: 50px;
+    
 }
 
 

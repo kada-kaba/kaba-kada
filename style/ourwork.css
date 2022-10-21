@@ -1,0 +1,29 @@
+
+
+
+
+
+#container {
+    background-color: blue;
+    height: 300px;
+    overflow: hidden;
+    
+}
+
+#banner1 {
+   width: 100%;
+    translate: 0 -10%;
+   align-items: center;
+    object-fit: cover;
+
+    
+}
+
+#information-box {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 50%;
+}
+
+

@@ -56,7 +56,6 @@ function calculateCounterValues() {
 // Format number 1000000 => 1.000.000
 const numberWithCommas = (x) => Math.round(x).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
-
 function animate(element) {
     console.log("animate");
 

@@ -47,7 +47,6 @@ nav a {
 
 nav a:hover {
     color:var(--green);
-    
 }
 
 /* Dansemoves fra Mikkes klubbhus */
@@ -59,7 +58,7 @@ nav a:hover {
     bottom: -5px;
 
     padding: 10px 3vw;
-    
+
     background-color: var(--green);
     border: 0px solid;
     border-color: #195536;
@@ -324,6 +323,16 @@ footer {
     nav {
         height: 75px;
     }
+}
+
+@media only screen and (max-width: 1000px){
+    /* nav {
+        height: 50px;
+    }
+
+    #map-container {
+        margin-top: 25px;
+    } */
     
     nav a {
         font-size: 3vw;

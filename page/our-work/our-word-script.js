@@ -1,27 +1,31 @@
+
 var i = 0; // start 
 var images = [];
 var time = 5000; // milliseconds for each image
 
 
-images [0] = //image1.jpg
-images[1] = //image2.jpg
-images[2] = //image3.jpg
+images[0] = "/image/man-in-forest.jpeg";
+images[1] = '/image/hut-in-forest.jpg'
+// images[2] = //image3.jpg
 
 
 
 // Change image
 
-function slideshow() {
+function slideShow(){
     document.slide.src = images[i];
 
     if (i < images.length - 1) {
-         i++
+         
+        i++;
 
     } else {
-        i = 0
+        i = 0;
     }
 
-    setTimeout(changeImg(), time);
+    setTimeout("slideShow()", time); 
 }
 
-window.onload = changeImg
+window.onload = slideShow; // load the slideShow function when the page loads
+
+

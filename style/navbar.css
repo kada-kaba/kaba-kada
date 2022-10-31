@@ -15,7 +15,6 @@ body {
   font-size: 18px;
   width: 100%;
   float: left;
-  background-color: black;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -54,7 +53,7 @@ body {
   display: none;
   background-color: gray;
   position: absolute;
-  margin-top: 70px;
+  margin-top: 65px;
   border-radius: 15px;
   width: 160px;
   box-shadow: 1px 1px 1px 1px;
@@ -114,7 +113,7 @@ body {
   color: rgb(165, 136, 80);
 }
 
-.drop:hover .drop-content {
+.drop:focus .drop-content {
   display: block;
   background: url(Jungel\ bakgrunn\ 3.webp);
 }

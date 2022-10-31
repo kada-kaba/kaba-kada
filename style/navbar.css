@@ -70,7 +70,7 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-#donate {
+/*#donate {
   position: absolute;
   font: inherit;
   font-size: 18px;
@@ -86,6 +86,26 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}*/
+
+#donate {
+  position: absolute;
+  /* height: 100%; */
+  right: 25px;
+  bottom: -5px;
+
+  padding: 10px 3vw;
+
+  background-color: var(--green);
+  border: 0px solid;
+  border-color: #195536;
+  border-radius: 0.5vw;
+  border-bottom-width: 0.25vw;
+}
+
+#donate:hover {
+  color: white;
+  border-bottom-width: 0px;
 }
 
 /*Hover animations:*/

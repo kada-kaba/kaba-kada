@@ -35,12 +35,12 @@ body {
     float: left;
 }
 
-#man-in-forest {
+#slide {
+
     max-width: 32%;
     height: auto;
     display: inline-block;
-    position: relative
-    float: right;
+    position: relative;
     margin: 75px 0 0 200px !important;
     border-radius: 10px
    

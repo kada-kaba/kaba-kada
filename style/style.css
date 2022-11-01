@@ -15,6 +15,11 @@ body, html{
 
 // OUR WORK
 
+
+h1 {
+    font-size: 30rem;
+}
+
 #container {
     background-color: blue;
     height: 30%;
@@ -31,20 +36,11 @@ body, html{
     
 }
 
-#ourworkh1 {
-    position: absolute;
-    left: 400px ;
-    top: 45%;
-}
-
-#information-box {
-    position: relative;
-}
-
-
 #ourworkp {
-    max-width: 75ch;
-    margin-top: 300px%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
 }
 
 

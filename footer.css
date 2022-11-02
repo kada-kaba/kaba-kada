@@ -44,6 +44,6 @@
 }
 
 .mediaimage:hover {
-    width: 55px;
+    scale: 1.25;
 }
 

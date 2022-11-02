@@ -37,8 +37,8 @@ Banners typically look like this:
     color: white;
 }
 
-.banner h1 { font-size: 10vw; }
-.banner h2 { font-size: 3vw; }
+.banner h1 { font-size: 8vw; }
+.banner h2 { font-size: 2vw; }
 
 /* Counters start outside the screen so they can be animated in */
 .counter {

@@ -1,7 +1,6 @@
 /* same for all rainforest pages */
 
 body {
-    background-color: var(--green);
     line-height: 1.5;
     /* x */
     margin: 20px;
@@ -14,10 +13,15 @@ header {
 
 /* amazon page  */
 .amazon-info {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
-    justify-content: space-between;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+    /* centers div */
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
 }
@@ -26,9 +30,10 @@ header {
 }
 #amazon-map-text { /* image text */
     position: absolute;
-    bottom: 110px;
-    color: white;
-    font-size: 20px;
+    bottom: 2px;
+    left: 200px;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -41,10 +46,14 @@ header {
 }
  
 .our-work-amazon {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
 
@@ -56,9 +65,10 @@ header {
 
 #amazon-people-text {
     position: absolute;
-    bottom: -30px;
-    color: white;
-    font-size: 20px;
+    bottom: -20px;
+    left: 150px;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -71,10 +81,14 @@ header {
 }
 
 .amazon-image {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: center;
     align-items: right;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     float: right;
@@ -89,10 +103,10 @@ header {
 
 #amazon-image-text  {
     position: absolute;
-    bottom: -1220px;
+    bottom: -20px;
     right: 250px;
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -102,10 +116,14 @@ header {
 /* congo page */
 
 .congo-info {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
 }
@@ -118,7 +136,7 @@ header {
     position: absolute;
     bottom: 20px;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 30px;
     margin-left: 80px;
@@ -133,10 +151,14 @@ header {
 }
 
 .our-work-congo {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     
@@ -149,8 +171,8 @@ header {
 #congo-people-text {
     position: absolute;
     bottom: -20px;
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 10px;
 }
@@ -164,10 +186,14 @@ header {
 }
 
 .congo-image {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: center;
     align-items: right;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     float: right;
@@ -182,10 +208,10 @@ header {
 
 #congo-image-text  {
     position: absolute;
-    bottom: -1220px;
+    bottom: -20px;
     right: 250px;
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -195,10 +221,14 @@ header {
 /* Indonesia page */
 
 .indonesia-info {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     
@@ -226,10 +256,14 @@ header {
 }
 
 .our-work-indonesia {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     
@@ -242,7 +276,7 @@ header {
 #indonesia-people-text {
     position: absolute;
     bottom: -20px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
@@ -260,6 +294,8 @@ header {
     justify-content: center;
     align-items: right;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     float: right;
@@ -276,7 +312,7 @@ header {
     position: absolute;
     bottom: -1220px;
     right: 250px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left: 20px;
@@ -287,10 +323,14 @@ header {
 /* xishuangbanna page */
 
 .xishuangbanna-info {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
 }
@@ -320,10 +360,14 @@ header {
 }
 
 .our-work-xishuangbanna {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     display: grid;
     justify-content: space-between;
     align-items: left;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
 }
@@ -335,7 +379,7 @@ header {
 #xishuangbanna-people-text {
     position: absolute;
     bottom: -20px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
@@ -355,6 +399,8 @@ header {
     justify-content: center;
     align-items: right;
     margin-bottom: 20px;
+    margin-left: 50%;
+    translate: -50%;
     width: 50%;
     padding: 20px;
     float: right;
@@ -371,7 +417,7 @@ header {
     position: absolute;
     bottom: -1220px;
     right: 250px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left: 20px;

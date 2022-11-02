@@ -51,7 +51,6 @@ body {
 
 .drop-content {
   display: none;
-  background-color: gray;
   position: absolute;
   margin-top: 65px;
   border-radius: 15px;
@@ -69,42 +68,23 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-/*#donate {
-  position: absolute;
-  font: inherit;
-  font-size: 18px;
-  text-decoration: none;
-  color: white;
-  top: 0;
-  right: 0;
-  padding: 16px 27px;
-  transition: all 350ms ease-in-out;
-}
-
-#donate a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}*/
-
 #donate {
   position: absolute;
   /* height: 100%; */
-  right: 25px;
-  bottom: -5px;
+  right: 5px;
+  bottom: 5px;
 
   padding: 10px 3vw;
 
-  background-color: var(--green);
+  /*background-color: rgb(83, 147, 88);*/
+  background-color: red;
+  color: white;
+  text-decoration: none;
   border: 0px solid;
-  border-color: #195536;
+  border-color: darkred;
+  /*border-color: #195536;*/
   border-radius: 0.5vw;
   border-bottom-width: 0.25vw;
-}
-
-#donate:hover {
-  color: white;
-  border-bottom-width: 0px;
 }
 
 /*Hover animations:*/
@@ -113,7 +93,7 @@ body {
   color: rgb(165, 136, 80);
 }
 
-.drop:focus .drop-content {
+.drop:hover .drop-content {
   display: block;
   background: url(image/Jungel\ bakgrunn\ 3.webp);
 }
@@ -127,6 +107,5 @@ body {
 }
 
 #donate:hover {
-  color: rgb(165, 136, 80);
-  transform: scale(1.15);
+  border-bottom-width: 0px;
 }

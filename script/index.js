@@ -62,7 +62,7 @@ function animate(element) {
     let index = 0;
 
     for (let i = 0; i < data.length; i++) {
-        if (element.id == data[i].id){
+        if (element.id == data[i].id) {
             index = i;
             break;
         }

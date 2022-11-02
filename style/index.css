@@ -155,46 +155,8 @@ nav a:hover {
     z-index: 10;
 }
 
-.banner {
-    position: relative;
-
-    margin: 5% 0;
-
-    height: 65%;
-    width: 100%;
-
-    background-size: cover;
-}
-
 #raised-banner {
     background-image: url(../image/rainforest.jpg);
-}
-
-#counters-grid {
-    display: grid;
-    align-content: center;
-    justify-content: center;
-
-    background-color: rgba(83, 147, 88, 0.5);
-}
-
-.banner h1, .banner h2 {
-    text-align: center;
-    color: white;
-}
-
-.counter {
-    font-size: 10vw;
-    margin-left: -500%;
-    transition: margin-left 1s;
-}
-
-.animated {
-    margin-left: 0;
-}
-
-.banner h2 {
-    font-size: 3vw;
 }
 
 #cards {

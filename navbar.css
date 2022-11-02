@@ -10,7 +10,7 @@ body {
 .navbar {
   position: sticky;
   top: 0%;
-  background: url(Jungel\ bakgrunn\ 3.webp);
+  background: url(image/Jungel\ bakgrunn\ 3.webp);
   font-weight: 500;
   font-size: 18px;
   width: 100%;
@@ -115,7 +115,7 @@ body {
 
 .drop:focus .drop-content {
   display: block;
-  background: url(Jungel\ bakgrunn\ 3.webp);
+  background: url(image/Jungel\ bakgrunn\ 3.webp);
 }
 
 .navbar-item:hover {

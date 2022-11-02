@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "oswald", sans-serif;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    background: url();
+    color: rgb(35, 35, 35);
+}
+ 
+.footertitle {
+    text-align: center;
+}
+
+.eh {
+    list-style-type: none;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+    bottom: 65px;
+}
+
+.media {
+    position: absolute;
+    right: 125px;
+    top: 30px;
+}
+
+.mediaimage {
+    width: 40px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.mediaimage:hover {
+    width: 55px;
+}
+

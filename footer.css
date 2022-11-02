@@ -11,6 +11,8 @@
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
+    /*background-color: rgb(50, 50, 50);
+    color: rgb(150, 150, 150);*/
     background: url(image/Bamboo.jpg);
     color: rgb(35, 35, 35);
 }

@@ -1,77 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/index.css">
     <title>Kada Kaba</title>
+
+    <script defer src="script/index.js"></script>
 </head>
+
 <body>
-    <div id="map-container">
-        <div id="map-tint">
+    <nav>
+        <div class="nav-wave"></div>
+        <a href="page/about-us/about-us.html">ABOUT</a>
+        <a href="page/our-work/our-work.html">OUR WORK</a>
+        <a href="">CONTACT</a>
+        <a href="page/donate/donate.html" id="donate-button">DONATE</a>
+    </nav>
+
+    <section id="map-container">
+        <div class="green-tint">
             <img id="map" src="image/map.webp" width="100%">
             <a href="page/forest/amazon.html" class="point" id="p0" style="left: 32%; top: 48%">
-                <div><div></div></div>
+                <div>
+                    <div></div>
+                </div>
             </a>
             <a href="page/forest/congo.html" class="point" id="p1" style="left: 55%; top: 48%">
-                <div><div></div></div>
+                <div>
+                    <div></div>
+                </div>
             </a>
             <a href="page/forest/xishuangbanna.html" class="point" id="p3" style="left: 80%; top: 33%">
-                <div><div></div></div>
+                <div>
+                    <div></div>
+                </div>
             </a>
             <a href="page/forest/sumatra.html" class="point" id="p2" style="left: 81.5%; top: 50%">
-                <div><div></div></div>
-            </a>
-        </div>
-    </div>
-    <div id="page">
-        <nav>
-            <a href="">ABOUT US</a>
-            <a href="">OUR WORK</a>
-            <a href="">NEWS</a>
-        </nav>
-        <div id="cards">
-            <a href="page/forest/amazon.html" class="card" id="amazon-card">
-                <div class="card-tint">
-                    <div class="card-content">
-                        <h2 class="card-title">Amazon</h2>
-                        <p class="card-text">Amazon is the largest rainforest in the world. The foret is often referred to as "the lungs of the earth". Read more...</p>
-                    </div>
-                </div>
-            </a>
-            <a href="page/forest/congo.html" class="card" id="congo-card">
-                <div class="card-tint">
-                    <div class="card-content">
-                        <h2 class="card-title">Congo</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
-                    </div>
-                </div>
-            </a>
-            <a href="page/forest/xishuangbanna.html" class="card" id="xishuangbanna-card">
-                <div class="card-tint">
-                    <div class="card-content">
-                        <h2 class="card-title">Xishuangbanna</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
-                    </div>
-                </div>
-            </a>
-            <a href="page/forest/sumatra.html" class="card" id="sumatra-card">
-                <div class="card-tint">
-                    <div class="card-content">
-                        <h2 class="card-title">Sumatra</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt cum odio ea placeat veniam tempora libero.</p>
-                    </div>
+                <div>
+                    <div></div>
                 </div>
             </a>
         </div>
-    </div>
+    </section>
+
+    <section id="counters">
+        <div id="counters-grid" class="green-tint">
+            <div class="wave wave-1">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+            <h1 id="raised-counter" class="counter">0</h1>
+            <h2>RAISED SO FAR</h2>
+
+            <div class="wave wave-2">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section id="cards">
+        <a href="page/forest/amazon.html" class="card" id="amazon-card">
+            <div class="card-tint">
+                <div class="card-content">
+                    <h2 class="card-title">Amazon</h2>
+                    <p class="card-text">Amazon is the largest rainforest in the world. The forest is often referred
+                        to as "the lungs of the earth". Read more...</p>
+                </div>
+            </div>
+        </a>
+        <a href="page/forest/congo.html" class="card" id="congo-card">
+            <div class="card-tint">
+                <div class="card-content">
+                    <h2 class="card-title">Congo</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt
+                        cum odio ea placeat. Read More...</p>
+                </div>
+            </div>
+        </a>
+        <a href="page/forest/xishuangbanna.html" class="card" id="xishuangbanna-card">
+            <div class="card-tint">
+                <div class="card-content">
+                    <h2 class="card-title">Xishuangbanna</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt
+                        cum odio ea placeat. Read More...</p>
+                </div>
+            </div>
+        </a>
+        <a href="page/forest/sumatra.html" class="card" id="sumatra-card">
+            <div class="card-tint">
+                <div class="card-content">
+                    <h2 class="card-title">Sumatra</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt
+                        cum odio ea placeat. Read More...</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    <footer>
+        
+    </footer>
 </body>
+
 </html>
 <!-- https://timesofindia.indiatimes.com/travel/web-stories/popular-rainforests-around-the-world/photostory/76732058.cms -->

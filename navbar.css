@@ -10,7 +10,7 @@ body {
 .navbar {
   position: sticky;
   top: 0%;
-  background: url(image/Jungel\ bakgrunn\ 3.webp);
+  background: url(image/Bamboo.jpg);
   font-weight: 500;
   font-size: 18px;
   width: 100%;
@@ -51,9 +51,9 @@ body {
 
 .drop-content {
   display: none;
+  background: url(image/Bamboo.jpg);
   position: absolute;
-  margin-top: 65px;
-  border-radius: 15px;
+  margin-top: 59px;
   width: 160px;
   box-shadow: 1px 1px 1px 1px;
 }
@@ -89,21 +89,20 @@ body {
 
 /*Hover animations:*/
 
-.drop :hover {
+.drop:hover {
   color: rgb(165, 136, 80);
 }
 
 .drop:hover .drop-content {
   display: block;
-  background: url(image/Jungel\ bakgrunn\ 3.webp);
 }
 
 .navbar-item:hover {
-    color: rgb(165, 136, 80);
+  color: rgb(165, 136, 80);
 }
 
 .drop-content a:hover {
-    color: rgb(165, 136, 80);
+  color: rgb(165, 136, 80);
 }
 
 #donate:hover {

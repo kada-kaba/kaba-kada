@@ -13,7 +13,7 @@
     text-decoration: none;
     /*background-color: rgb(50, 50, 50);
     color: rgb(150, 150, 150);*/
-    background: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0)),url(image/Bamboo.jpg);
+    background: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0)), url(image/Bamboo.jpg);
     color: rgb(35, 35, 35);
 }
  

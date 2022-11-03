@@ -24,6 +24,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
 }
 #amzon-map {
     position: relative;
@@ -56,6 +57,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
 
 }
 
@@ -92,6 +94,7 @@ header {
     width: 50%;
     padding: 20px;
     float: right;
+    padding-bottom: 50px;
 }
 
 .amazon-image img {
@@ -126,6 +129,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 #congo-map {
@@ -161,6 +165,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
     
 }
 
@@ -197,6 +202,7 @@ header {
     width: 50%;
     padding: 20px;
     float: right;
+    padding-bottom: 50px;
 }
 
 .congo-image img {
@@ -231,6 +237,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
     
 }
 
@@ -266,6 +273,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
     
 }
 
@@ -299,6 +307,7 @@ header {
     width: 50%;
     padding: 20px;
     float: right;
+    padding-bottom: 50px;
 }
 
 .indonesia-image img {
@@ -333,6 +342,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 #xishuangbanna-map {
@@ -370,6 +380,7 @@ header {
     translate: -50%;
     width: 50%;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 #xishuangbanna-people {
@@ -404,6 +415,7 @@ header {
     width: 50%;
     padding: 20px;
     float: right;
+    padding-bottom: 50px;
 }
 
 .xishuangbanna-image img {
@@ -425,6 +437,27 @@ header {
     margin-left: 50px;
 }
 
+/* media queries */
+
+@media only screen and (min-width: 1224px) {
+    .div {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+   
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
 
 
 

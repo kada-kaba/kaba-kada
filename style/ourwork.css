@@ -63,7 +63,7 @@
     position: sticky;
     top: 0%;
     /*background: url(image/Jungel\ bakgrunn\ 3.webp);*/
-    background-color: lightgreen;
+    background-color: #D1E294;
     font-weight: 500;
     font-size: 18px;
     width: 100%;
@@ -164,3 +164,13 @@
     border-bottom-width: 0px;
   }
 
+
+  #our-work-wave {
+    position: relative;
+    margin-top: -30px;
+    
+   height: 75px;
+   width: 100%; 
+   
+   
+  }

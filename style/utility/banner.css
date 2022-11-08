@@ -1,0 +1,52 @@
+/* CSS FOR BANNERS */
+
+/* 
+Banners typically look like this:
+---------------------------
+
+         BIG TEXT
+        small text
+
+---------------------------
+*/
+
+.banner {
+    position: relative;
+
+    margin: 5% 0;
+
+    height: 45vw;
+    width: 100%;
+
+    background-size: cover;
+}
+
+.banner-grid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    align-content: center;
+
+    background-color: rgba(83, 147, 88, 0.5);
+}
+
+.banner h1, .banner h2 {
+    text-align: center;
+    color: white;
+}
+
+.banner h1 { font-size: 8vw; }
+.banner h2 { font-size: 2vw; }
+
+/* Counters start outside the screen so they can be animated in */
+.counter {
+    margin-left: -500%;
+    transition: margin-left 1s;
+}
+
+/* Class applied to counters that can be animated */
+.animated {
+    margin-left: 0;
+}

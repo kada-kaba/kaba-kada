@@ -30,3 +30,6 @@ function slideShow(){
 window.onload = slideShow; // load the slideShow function when the page loads
 
 
+// coding inspiration recieved from https://www.youtube.com/watch?v=4YQ4svkETS0
+
+

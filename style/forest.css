@@ -2,7 +2,6 @@
 
 body {
     line-height: 1.5;
-    /* x */
     margin: 20px;
 }
 
@@ -11,435 +10,103 @@ header {
     margin-bottom: 20px;
 }
 
-/* amazon page  */
-.amazon-info {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+h2 {
+    text-align: center;
+}
+h4 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* div for all images inside the rainforest pages and the image text */
+.image {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* styles all images inside the rainforest pages */
+.image img {
+    width: 100%;
+    height: 100%;
     border-radius: 17px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    /* centers div */
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
+    object-fit: cover;
 }
-#amzon-map {
+
+#map-text {
+    display: inline-block;
     position: relative;
-}
-#amazon-map-text { /* image text */
-    position: absolute;
     bottom: 2px;
-    left: 200px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
     padding-left: 20px;
+    word-wrap: break-word;
 }
 
-#amazon-map img {
-    width: 100%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
+#people-text {
+    display: inline-block;
+    position: relative;
+    bottom: -20px;
+    padding-left: 20px;
+    word-wrap: break-word;
 }
- 
-.our-work-amazon {
+
+#image-text {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    white-space: normal;
+}
+
+/* grid container for all divs */
+.forest-container { /* https://cssgrid-generator.netlify.app/  generator which generates columns and rows for display:grid*/
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+/* centers all image texts */
+.center-text {
+    left: 50%;
+    translate: -50%;
+}
+/* info div for all forest pages */
+.info {
     box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
     border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+/* our-work div for all forest pages */
+.our-work {
+    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+    border-radius: 17px;
     padding: 20px;
     padding-bottom: 50px;
 
 }
-
-#amazon-people {
-    position: relative;
-}
-
-#amazon-people-text {
-    position: absolute;
-    bottom: -20px;
-    left: 150px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 20px;
-}
-
-#amazon-people img {
-    width: 100%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-.amazon-image {
+/* image div for all forest pages */
+.image-container {
     box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
     border-radius: 17px;
-    display: grid;
-    justify-content: center;
     align-items: right;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
+    height: auto;
     padding: 20px;
     float: right;
     padding-bottom: 50px;
 }
 
-.amazon-image img {
-    width: 100%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-#amazon-image-text  {
-    position: absolute;
-    bottom: -20px;
-    right: 250px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 50px;
-}
-
-/* congo page */
-
-.congo-info {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-}
-
-#congo-map {
-    position: relative;
-}
-
-#congo-map-text {
-    position: absolute;
-    bottom: 20px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 30px;
-    margin-left: 80px;
-}
-
-#congo-map img {
-    width: 80%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-    margin-top: 20px;
-}
-
-.our-work-congo {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-    
-}
-
-#congo-people {
-    position: relative;
-}
-
-#congo-people-text {
-    position: absolute;
-    bottom: -20px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 10px;
-}
-
-#congo-people img {
-    width: 70%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-    margin-top: 20px;
-}
-
-.congo-image {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: center;
-    align-items: right;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    float: right;
-    padding-bottom: 50px;
-}
-
-.congo-image img {
-    width: 100%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-#congo-image-text  {
-    position: absolute;
-    bottom: -20px;
-    right: 250px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 50px;
-}
-
-/* Indonesia page */
-
-.indonesia-info {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-    
-}
-
-#indonesia-map {
-    position: relative;
-}
-
-#indonesia-map-text {
-    position: absolute;
-    bottom: 20px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 30px;
-    margin-left: 80px;
-}
-
-#indonesia-map img {
-    width: 70%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-.our-work-indonesia {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-    
-}
-
-#indonesia-people {
-    position: relative;
-}
-
-#indonesia-people-text {
-    position: absolute;
-    bottom: -20px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 10px;
-}
-
-#indonesia-people img {
-    width: 70%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-.indonesia-image {
-    display: grid;
-    justify-content: center;
-    align-items: right;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    float: right;
-    padding-bottom: 50px;
-}
-
-.indonesia-image img {
-    width: 100%;
-    height: 400px;
-    border: 5px black;
-    border-radius: 17px;
-}
-
-#indonesia-image-text  {
-    position: absolute;
-    bottom: -1220px;
-    right: 250px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 50px;
-}
-
-/* xishuangbanna page */
-
-.xishuangbanna-info {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-}
-
-#xishuangbanna-map {
-    position: relative;
-}
-
-#xishuangbanna-map-text {
-    position: absolute;
-    bottom: -20px;
-    left: -80px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 30px;
-    margin-left: 80px;
-}
-
-#xishuangbanna-map img {
-    width: 70%;
-    height: 400px;
-    border: 5px solid black;
-    margin-top: 20px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-.our-work-xishuangbanna {
-    box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    border-radius: 17px;
-    display: grid;
-    justify-content: space-between;
-    align-items: left;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    padding-bottom: 50px;
-}
-
-#xishuangbanna-people {
-    position: relative;
-}
-
-#xishuangbanna-people-text {
-    position: absolute;
-    bottom: -20px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 10px;
-}
-
-#xishuangbanna-people img {
-    width: 70%;
-    height: 400px;
-    border: 5px solid black;
-    margin-top: 20px;
-    border: 5px solid black;
-    border-radius: 17px;    
-}
-
-.xishuangbanna-image {
-    display: grid;
-    justify-content: center;
-    align-items: right;
-    margin-bottom: 20px;
-    margin-left: 50%;
-    translate: -50%;
-    width: 50%;
-    padding: 20px;
-    float: right;
-    padding-bottom: 50px;
-}
-
-.xishuangbanna-image img {
-    width: 100%;
-    height: 400px;
-    border: 5px solid black;
-    border-radius: 17px;
-}
-
-#xishuangbanna-image-text  {
-    position: absolute;
-    bottom: -1220px;
-    right: 250px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 50px;
-}
 
 /* media queries */
 
-@media only screen and (min-width: 1224px) {
+/* @media only screen and (min-width: 1224px) {
     .div {
         width: 100%;
     }
@@ -457,7 +124,7 @@ header {
 
 @media only screen and (max-width: 480px) {
 
-}
+} */
 
 
 

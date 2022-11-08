@@ -21,6 +21,11 @@ Banners typically look like this:
     background-size: cover;
 }
 
+.top-banner {
+    margin-top: 0;
+    height: 30vw;
+}
+
 .banner-grid {
     position: relative;
     width: 100%;

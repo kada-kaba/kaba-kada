@@ -15,11 +15,11 @@
     height: 60px;
 }
 
-.wave-1 {
+.wave-top {
     top: 0;
 }
 
-.wave-2 {
+.wave-bottom {
     bottom: 0;
     transform: rotate(180deg);
 }

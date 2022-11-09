@@ -1,0 +1,25 @@
+.wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+
+    fill: white;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100%);
+    height: 60px;
+}
+
+.wave-top {
+    top: 0;
+}
+
+.wave-bottom {
+    bottom: 0;
+    transform: rotate(180deg);
+}

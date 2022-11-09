@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+
+    gap: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#flex-img{
+    width: 20%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+
+#first-banner{
+    margin-top: 0;
+    height: 30vw;
+    background-image: url(../image/Amazon-large-rendered-small.png);
+}
+
+#second-banner{
+    background-image: url(../image/congo.jpeg);
+    background-position: center;
+    height: 30vw;
+    margin-bottom: 0;
+}

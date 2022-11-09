@@ -9,9 +9,9 @@ const observer = new IntersectionObserver((entries) => {
             // Dispatch/Trigger/Fire the event
             entry.target.dispatchEvent(event);
         } 
-        else {
-            entry.target.classList.remove("animated");
-        }
+        // else {
+        //     entry.target.classList.remove("animated");
+        // }
     })
 });
 
@@ -28,7 +28,7 @@ const data = [
     {
         id: "raised-counter",
         min: 10000,
-        max: 1000000,
+        max: 5000000,
         prefix: "$"
     },
     {
@@ -38,11 +38,23 @@ const data = [
         prefix: ""
     }
 ]
-function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-}
+// function randomIntFromInterval(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1) + min);
+// }
 
 const lerp = (x, y, a) => x * (1 - a) + y * a;
+
+const counterValues = [];
+
+calculateCounterValues();
+function calculateCounterValues() {
+    for (let i = 0; i < data.length; i++) {
+        counterValues.push(Math.floor(Math.random() * (data[i].max - data[i].min + 1) + data[i].min));
+    }
+}
+
+// Format number 1000000 => 1.000.000
+const numberWithCommas = (x) => Math.round(x).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 function animate(element) {
     console.log("animate");
@@ -50,15 +62,16 @@ function animate(element) {
     let index = 0;
 
     for (let i = 0; i < data.length; i++) {
-        if (element.id == data[i].id){
+        if (element.id == data[i].id) {
             index = i;
             break;
         }
     }
 
-    const target = randomIntFromInterval(data[index].min, data[index].max);
+    // Target lerp value is precalculated (to ensure consistency)
+    const target = counterValues[index];
     
-    const duration = 1100;
+    const duration = 1200;
     const interval = 20;
     
     let timePassed = 0;
@@ -73,6 +86,6 @@ function animate(element) {
         let t = timePassed / duration;
 
         let value = lerp(0, target, t);
-        element.innerHTML = `${data[index].prefix}${value.toFixed(0)}`;
+        element.innerHTML = `${data[index].prefix}${numberWithCommas(value)}`;
     }, interval); // Update every interval ms
 }

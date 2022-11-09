@@ -10,17 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
+    <link rel="stylesheet" href="../../style/utility/wave.css">
+    <link rel="stylesheet" href="../../style/utility/banner.css">
 
-
-    
+    <script defer src="../../script/wave.js"></script>
     <title>Amazon</title>
 </head>
 
 <body>
-    <header>
-        <h1>The Amazon rainforest</h1>
-        <h3>The biggest and most diverse rainforest in the world</h3>
-    </header>
+    <div class="banner top-banner" style="background-image: url(../../image/Amazon-Rain-Forest.jpg)">
+       
+        <div class="banner-grid">
+            <h1 id="raised-counter">The Amazon rainforest</h1>
+            <h2>The biggest and most diverse rainforest in the world</h2>
+            <div class="wave wave-bottom">
+            </div>
+        </div>
+    </div>
 
     <section class ="forest-container">
         <div class = "info">
@@ -31,6 +37,17 @@
             <div class ="image">
                 <img src="../../image/amazon-map.jpg" alt="amazon rainforest map">
                 <div id ="map-text" class = "center-text"><h4 >A map over the amazon rainforest</h4></div>
+            </div>
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>TREES SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
             </div>
         </div>
 
@@ -52,6 +69,17 @@
                 <div id ="people-text" class = "center-text"><h4 >People working to preserve the amazon forest</h4></div>
             </div>
 
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>ANIMALS SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
+            </div>
         </div>
 
         <div class = "image-container">

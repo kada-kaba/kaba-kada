@@ -11,16 +11,26 @@
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
 
-    <script src="/Final-Website/scripts/navbar.js" defer></script>
+    <link rel="stylesheet" href="../../style/utility/wave.css">
+    <link rel="stylesheet" href="../../style/utility/banner.css">
+   
+
+    <script defer src="../../script/wave.js"></script>
     
     <title>Indonesia rainforest</title>
 </head>
 
 <body>
-    <header>
-        <h1>The Indonesian rainforest</h1>
-        <h3>One of Earth's most biologically and culturally rich landscapes</h3>
-    </header>
+
+    <div class="banner top-banner" style="background-image: url(../../image/xishuangbanna-rainforest.jpg)">
+       
+        <div class="banner-grid">
+            <h1 id="raised-counter">The Indonesian rainforest</h1>
+            <h2>One of Earth's most biologically and culturally rich landscapes</h2>
+            <div class="wave wave-bottom">
+            </div>
+        </div>
+    </div>
 
     <section class = "forest-container">
         <div class = "info">
@@ -31,6 +41,17 @@
             <div class = "image">
                 <img src="../../image/indonesia-map.jpg" alt="indonesia rainforest map">
                 <div id ="map-text" class = "center-text"><h4 >A map over the indonesia rainforest</h4></div>
+            </div>
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>TREES SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
             </div>
         </div>
 
@@ -52,6 +73,17 @@
                 <div id ="people-text" class = "center-text"><h4 >People working to preserve the indonesia forest</h4></div>
             </div>
 
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>ANIMALS SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
+            </div>
         </div>
 
         <div class = "image-container">

@@ -11,16 +11,25 @@
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
 
-    <script src="/Final-Website/scripts/navbar.js" defer></script>
+    <link rel="stylesheet" href="../../style/utility/wave.css">
+    <link rel="stylesheet" href="../../style/utility/banner.css">
    
-    
+
+    <script defer src="../../script/wave.js"></script>
+   
     <title>Congo</title>
 </head>
+
 <body>
-    <header>
-        <h1>The Congo rainforest</h1>
-        <h3>75 million people are depending on this forest to live</h3>
-    </header>
+    <div class="banner top-banner" style="background-image: url(../../image/congo-Rainforest.jpeg)">
+       
+        <div class="banner-grid">
+            <h1 id="raised-counter">The Congo rainforest</h1>
+            <h2>75 million people are depending on this forest to live</h2>
+            <div class="wave wave-bottom">
+            </div>
+        </div>
+    </div>
 
     <section class = "forest-container">
         <div class = "info">
@@ -28,9 +37,21 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
                 Tempore quibusdam commodi quod! Optio sunt molestiae, facere quas autem maiores <br>
                 quia ut aperiam fugiat voluptatem ea dolorum veritatis, unde doloremque omnis.</p>
+
             <div class ="image">
                 <img src="../../image/congo-map.jpg" alt="congo rainforest map">
                 <div id ="map-text" class = "center-text"><h4 >A map over the congo rainforest</h4></div>
+            </div>
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>TREES SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
             </div>
         </div>
 
@@ -52,6 +73,17 @@
                 <div id ="people-text" class = "center-text"><h4 >People working to preserve the congo forest</h4></div>
             </div>
 
+        </div>
+
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg)">
+            <div class="banner-grid">
+                <div class="wave wave-top">
+                </div>
+                <h1 id="raised-counter" class="counter">0</h1>
+                <h2>ANIMALS SAVED SO FAR</h2>
+                <div class="wave wave-bottom">
+                </div>
+            </div>
         </div>
 
         <div class = "image-container">

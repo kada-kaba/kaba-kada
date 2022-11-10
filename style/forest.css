@@ -1,5 +1,7 @@
 /* same for all rainforest pages */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     line-height: 1.5;
 }

@@ -18,7 +18,7 @@
 }
 .contact-footer {
     position: absolute;
-    left: 0;
+    left: 20%;
     margin: 0 0 0 1rem;
 
 }
@@ -27,6 +27,9 @@
     text-align: center;
 }
 
+li {
+    list-style-type: none;
+}
 .logo{
     position: relative;
     text-align: center;
@@ -47,5 +50,12 @@ img {
 
 .mediaimage:hover {
     scale: 1.25;
+}
+
+#leaf {
+    width: 5%;
+    position: absolute;
+    left: 48%;
+    bottom: -150px;
 }
 

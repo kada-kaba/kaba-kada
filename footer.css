@@ -4,12 +4,11 @@
     font-family: "oswald", sans-serif;
 }
 
-.footer {
-    position: fixed;
+#footer {
+    position: absolute;
     width: 100%;
-    bottom: 0%;
-    font-weight: 500;
-    font-size: 18px;
+    bottom: 0;
+    height: 2.5rem;
     text-decoration: none;
     background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);
     color: rgb(35, 35, 35);
@@ -17,12 +16,6 @@
  
 .footertitle {
     text-align: center;
-}
-
-.eh {
-    list-style-type: none;
-    margin-left: 25px;
-    margin-top: 60px;
 }
 
 .logo{

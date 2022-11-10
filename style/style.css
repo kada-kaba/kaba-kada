@@ -10,6 +10,7 @@
 body, html {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 
@@ -23,9 +24,6 @@ body, html {
 
 
  /* OUR WORK PAGE  */
-
-
-
 
 
  #container {
@@ -66,7 +64,6 @@ body, html {
   
     width: 100%;
     height: auto;
-    aspect-ratio: 16/9;
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -76,6 +73,7 @@ body, html {
 
     
 }
+
 
 #ourwork-text-after {
   position: relative;
@@ -125,7 +123,6 @@ body, html {
    
    
   }
-
 
  /* OUR WORK PAGE */
 

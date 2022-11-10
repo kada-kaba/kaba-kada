@@ -11,9 +11,7 @@
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
-    /*background-color: rgb(50, 50, 50);
-    color: rgb(150, 150, 150);*/
-    background: url(image/Bamboo.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);
     color: rgb(35, 35, 35);
 }
  
@@ -24,19 +22,19 @@
 .eh {
     list-style-type: none;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .logo{
     position: relative;
     text-align: center;
-    bottom: 65px;
+    bottom: 50px;
 }
 
 .media {
     position: absolute;
     right: 125px;
-    top: 30px;
+    top: 55px;
 }
 
 .mediaimage {

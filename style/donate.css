@@ -14,7 +14,7 @@
     width: 60vw;
     border-radius: 17px;
     box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    padding: 20px 0 20px 0;
+    padding: 20px 0 40px 0;
     flex-direction: column;
     margin-bottom: 5%;
 }
@@ -117,7 +117,7 @@
     color: white;
     border: none;
     box-shadow: 0px 2px 5px 0px grey;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .donate-button-wrapper button:hover{
@@ -125,33 +125,15 @@
     transition: 0.3s ease;
     background-color: #104A02;
     animation-duration: 0.3s;
-    padding: 7px 20px 7px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .donate-button-wrapper button:active, .donate-amount-buttons button:active {
     transform: translate(1px,1px);
 }
 
-/* @media screen and (max-width: 1225px){
-    .donate-text-wrapper {
-        width: 80%;
-        height: fit-content;
-        padding: 10px 30px 10px 30px;
-    }
 
-    .donate-butt
-
-    .donate-input-wrapper {
-        width: 60%;
-    }
-
-    .donate-form-wrapper {
-        padding-right: 0;
-        width: 100%;
-    }
-} 
-
-*/@media screen and (max-width: 950px){
+@media screen and (max-width: 950px){
     .donate-box-wrapper {
         width: 90%;
     }
@@ -164,7 +146,5 @@
 
     .donate-input-label-wrapper {
         flex-direction: column;
-        margin-left: 0px;
     }
-
 }

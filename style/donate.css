@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
 }
 
@@ -11,17 +11,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 60vw;
     border-radius: 17px;
     box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
-    padding: 20px 0 20px 0;
+    padding: 20px 0 40px 0;
     flex-direction: column;
-    height: 30vw;
+    margin-bottom: 5%;
 }
 
 .donate-text-wrapper {
     height: 20%;
-    padding: 20px 60px 0px 60px;
+    padding: 20px 60px 50px 60px;
     font-size: 18px;
 }
 
@@ -117,7 +117,7 @@
     color: white;
     border: none;
     box-shadow: 0px 2px 5px 0px grey;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .donate-button-wrapper button:hover{
@@ -125,71 +125,17 @@
     transition: 0.3s ease;
     background-color: #104A02;
     animation-duration: 0.3s;
-    padding: 7px 20px 7px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .donate-button-wrapper button:active, .donate-amount-buttons button:active {
     transform: translate(1px,1px);
 }
 
-@media screen and (max-width: 1225px){
-    .donate-box-wrapper {
-        flex-direction: row-reverse;
-    }
-
-    .donate-text-wrapper {
-        width: 40%;
-        height: fit-content;
-        padding: 10px 30px 10px 30px;
-    }
-
-    .donate-butt
-
-    .donate-input-wrapper {
-        width: 60%;
-    }
-
-    .donate-form-wrapper {
-        padding-right: 0;
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 950px){
     .donate-box-wrapper {
-        flex-direction: column;
-        height: auto;
-        padding: 20px 0 50px 0;
-    }
-
-    .donate-text-wrapper, .donate-input-wrapper {
         width: 90%;
-        padding: 0;
-    }
-
-    .donate-form-wrapper {
-        padding: 0;
-    }
-
-    .donate-form-wrapper div{
-        width: 100%;
-        padding: 10px 0 0 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .donate-amount-buttons button{
-        margin: 0 2% 0 2%;
-    }
-
-
-    .donate-text-wrapper {
-        font-size: 16px;
-    }
-
-    .donate-input-label-wrapper {
-        margin-left: 0px;
     }
 }
 
@@ -200,6 +146,5 @@
 
     .donate-input-label-wrapper {
         flex-direction: column;
-        margin-left: 0px;
     }
 }

@@ -26,15 +26,15 @@ counters.forEach((counter) => {
 
 const data = [
     {
-        id: "forest-raised-counter",
+        id: "raised-counter",
         min: 10000,
-        max: 500000,
-        prefix: ""
+        max: 5000000,
+        prefix: "$"
     },
     {
-        id: "animal-raised-counter",
-        min: 1000,
-        max: 50000,
+        id: "contributors-counter",
+        min: 100,
+        max: 1000,
         prefix: ""
     }
 ]
@@ -89,4 +89,3 @@ function animate(element) {
         element.innerHTML = `${data[index].prefix}${numberWithCommas(value)}`;
     }, interval); // Update every interval ms
 }
-

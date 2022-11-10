@@ -38,7 +38,7 @@
                     <div class="donate-input-label-wrapper">
                         <div>
                             <label for="donate-amount-input">Amount(kr):</label>
-                            <input id="donate-amount-input" placeholder="0" type="number">
+                            <input id="donate-amount-input" placeholder="0" type="number" min="0" max="10000000" required>
                         </div>
                         <div>
                             <label for="donate-howoften-input">How often:</label>
@@ -53,11 +53,11 @@
                     <div class="donate-input-label-wrapper">
                         <div>
                             <label for="donate-name-input">Name:</label>
-                            <input id="donate-name-input" placeholder="" type="text">
+                            <input id="donate-name-input" placeholder="" type="text" required>
                         </div>
                         <div>
                             <label for="donate-email-input">Email:</label>
-                            <input id="donate-email-input" placeholder="example@email.com" type="email">
+                            <input id="donate-email-input" placeholder="example@email.com" type="email" required>
                         </div>
                     </div>
                     <div class="donate-button-wrapper">

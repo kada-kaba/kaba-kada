@@ -4,6 +4,9 @@
     font-family: "oswald", sans-serif;
 }
 
+.main {
+    position: relative;
+}
 #footer {
     position: absolute;
     width: 100%;
@@ -12,6 +15,12 @@
     text-decoration: none;
     background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);
     color: rgb(35, 35, 35);
+}
+.contact-footer {
+    position: absolute;
+    left: 0;
+    margin: 0 0 0 1rem;
+
 }
  
 .footertitle {
@@ -30,7 +39,7 @@
     top: 55px;
 }
 
-.mediaimage {
+img {
     width: 40px;
     cursor: pointer;
     transition: all 300ms ease-in-out;

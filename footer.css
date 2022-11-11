@@ -6,6 +6,8 @@
 
 .main {
     position: relative;
+    margin-top: 20%;
+    background-color: #000;
 }
 #footer {
     position: absolute;
@@ -13,13 +15,15 @@
     bottom: 0;
     height: 2.5rem;
     text-decoration: none;
-    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);
+    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);;
     color: rgb(35, 35, 35);
 }
 .contact-footer {
     position: absolute;
     left: 20%;
     margin: 0 0 0 1rem;
+    bottom: -300%;
+
 
 }
  
@@ -33,7 +37,7 @@ li {
 .logo{
     position: relative;
     text-align: center;
-    bottom: 50px;
+    bottom: -105%;
 }
 
 .media {

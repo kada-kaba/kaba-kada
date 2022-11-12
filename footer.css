@@ -7,15 +7,17 @@
 .main {
     position: relative;
     margin-top: 20%;
+    background-color: var(--grey);
 }
 .footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
     height: 2.5rem;
     text-decoration: none;
-    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);;
-    color: rgb(35, 35, 35);
+    /* background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);; */
+    
 }
 .contact-footer {
     position: absolute;

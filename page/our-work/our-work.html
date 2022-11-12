@@ -19,16 +19,14 @@
     <link rel="stylesheet" href="../../style/utility/wave.css" />
     <link rel="stylesheet" href="../../style/utility/banner.css" />
     <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="../../footer.css">
+
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
   </head>
 
   <body>
-    <nav>
-      <div class="nav-wave"></div>
-      <a href="page/about-us/about-us.html">ABOUT</a>
-      <a href="page/our-work/our-work.html">OUR WORK</a>
-      <a href="page/contact/contact.html">CONTACT</a>
-      <a href="page/donate/donate.html" id="donate-button">DONATE</a>
-    </nav>
+    <nav-bar></nav-bar>
     <div
       class="banner top-banner"
       style="background-image: url(../../image/our-work-banner.jpeg)"
@@ -83,5 +81,7 @@
 
     <script src="../../script/our-work-script.js"></script>
     <script src="../../script/wave.js"></script>
+
+    <app-footer></app-footer>
   </body>
 </html>

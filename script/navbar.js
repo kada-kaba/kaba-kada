@@ -3,20 +3,13 @@ class NavBar extends HTMLElement { // source : https://stackoverflow.com/questio
   connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
       //  refers back to the class object
       this.innerHTML = `  
-      <div class="navbar">
-        <a href="#" class="navbar-item">Home</a>
-        <a href="#" class="navbar-item">About </a>
-        <div class="drop">
-          <button class="drop-button">Drop</button>
-          <div class="drop-content">
-            <a href="#">A</a>
-            <a href="#">A</a>
-            <a href="#">A</a> 
-          </div>
-        </div>
-        <a id="donate" href="#">Donate</a>
-    </div>
-
+      <nav>
+        <div class="nav-wave"></div>
+        <a href="page/about-us/about-us.html">ABOUT</a>
+        <a href="page/our-work/our-work.html">OUR WORK</a>
+        <a href="page/contact/contact.html">CONTACT</a>
+        <a href="page/donate/donate.html" id="donate-button">DONATE</a>
+    </nav>
       `
   }
 }

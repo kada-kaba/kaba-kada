@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/contact.css">
+    <link rel="stylesheet" href="../../footer.css">
+    <link rel="stylesheet" href="../../style/index.css">
+
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
     <link rel="stylesheet" href="../../style/utility/wave.css">
     <link rel="stylesheet" href="../../style/utility/banner.css">
     <title>Contact</title>
 </head>
 <body>
-    <div class="banner top-banner" style="background-image: url(../../image/contact-rainforest.jpg); background-position: 50%;">
-        <div class="banner-grid">
+    <div class="contact-image-wrapper">
+        <img src="../../image/contact-rainforest.jpg" alt="">
+    </div>
+    <div class="contact-info-wrapper">
+        <div class="contact-header-wrapper">
             <h1>Contact us</h1>
             <div class="wave wave-bottom">
             </div>
@@ -31,6 +39,8 @@
             <button id="contact-submit-button">Send</button>
         </div>
     </div>
+
+    <app-footer></app-footer>
 <script src="../../script/message-sent.js"></script>
 <script src="../../script/wave.js"></script>
 </body>

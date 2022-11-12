@@ -8,25 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
-
     <link rel="stylesheet" href="../../style/utility/wave.css">
     <link rel="stylesheet" href="../../style/utility/banner.css">
-   
+    <link rel="stylesheet" href="../../footer.css">
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="../../style/index.css">
 
     <script defer src="../../script/wave.js"></script>
     <script defer src = "../../script/forest.js"></script>
-    
-    <title>Indonesia rainforest</title>
+
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
+    <title>Sumatra</title>
 </head>
 
 <body>
 
-    <div class="banner top-banner" style="background-image: url(../../image/xishuangbanna-rainforest.jpg)">
+    <nav-bar></nav-bar>
+
+    <div class="banner top-banner" style="background-image: url(../../image/forest/indonesia-forest.jpg)">
        
         <div class="banner-grid">
-            <h1 id="raised-counter">The Indonesian rainforest</h1>
+            <h1 id="raised-counter">SUMATRA</h1>
             <h2>One of Earth's most biologically and culturally rich landscapes</h2>
             <div class="wave wave-bottom">
             </div>
@@ -40,12 +46,12 @@
                 Tempore quibusdam commodi quod! Optio sunt molestiae, facere quas autem maiores <br>
                 quia ut aperiam fugiat voluptatem ea dolorum veritatis, unde doloremque omnis.</p>
             <div class = "image">
-                <img src="../../image/indonesia-map.jpg" alt="indonesia rainforest map">
-                <div id ="map-text" class = "center-text"><h4 >A map over the indonesia rainforest</h4></div>
+                <img src="../../image/forest/indonesia-map.jpg" alt="indonesia rainforest map">
+                <div id ="map-text" class = "center-text"><h4 >A map over the sumatra rainforest</h4></div>
             </div>
         </div>
 
-        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg)">
             <div class="banner-grid">
                 <div class="wave wave-top">
                 </div>
@@ -57,7 +63,7 @@
         </div>
 
         <div class ="our-work">
-            <h2>Our work in the Indonesian rainforest</h2>
+            <h2>Our work in the sumatra rainforest</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, 
                 sit amet consectetur adipisicing elit. Ipsam saepe accusantium iste eaque, dignissimos
                 natus illo ad dolores perspiciatis quibusdam beatae optio id modi. Officia, quaerat laudantium? Recusandae, dolorem possimus.
@@ -70,13 +76,13 @@
             </p>
 
             <div class="image">
-                <img src="../../image/indonesia-people.jpg" alt="people conserving indonesia forest">
-                <div id ="people-text" class = "center-text"><h4 >People working to preserve the indonesia forest</h4></div>
+                <img src="../../image/forest/indonesia-people.jpg" alt="people conserving indonesia forest">
+                <div id ="people-text" class = "center-text"><h4 >People working to preserve the sumatra forest</h4></div>
             </div>
 
         </div>
 
-        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg); z-index: 1;">
+        <div class="banner" style="background-image: url(../../image/forest/animals.jpg)">
             <div class="banner-grid">
                 <div class="wave wave-top">
                 </div>
@@ -89,12 +95,13 @@
 
         <div class = "image-container">
             <div class = "image">
-                <img src="../../image/indonesia-forest.jpg" alt="picture of indonesian rainforest">
+                <img src="../../image/forest/indonesia-forest.jpg" alt="picture of indonesian rainforest">
                 <div id ="image-text" class = "center-text"><h4>Picture from inside the forest</h4></div>
             </div>
         </div>
 
     </section>
 
-     
+    <app-footer></app-footer>
+</body>
 </html>

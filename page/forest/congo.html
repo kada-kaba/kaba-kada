@@ -8,23 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
-
     <link rel="stylesheet" href="../../style/utility/wave.css">
     <link rel="stylesheet" href="../../style/utility/banner.css">
-   
+    <link rel="stylesheet" href="../../footer.css">
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="../../style/index.css">
+
     <script defer src="../../script/wave.js"></script>
     <script defer src = "../../script/forest.js"></script>
+
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
    
     <title>Congo</title>
 </head>
 
 <body>
-    <div class="banner top-banner" style="background-image: url(../../image/congo-Rainforest.jpeg)">
+
+    <nav-bar></nav-bar>
+    <div class="banner top-banner" style="background-image: url(../../image/forest/congo-Rainforest.jpeg)">
        
         <div class="banner-grid">
-            <h1 id="raised-counter">The Congo rainforest</h1>
+            <h1 id="raised-counter">CONGO</h1>
             <h2>75 million people are depending on this forest to live</h2>
             <div class="wave wave-bottom">
             </div>
@@ -39,7 +47,7 @@
                 quia ut aperiam fugiat voluptatem ea dolorum veritatis, unde doloremque omnis.</p>
 
             <div class ="image">
-                <img src="../../image/congo-map.jpg" alt="congo rainforest map">
+                <img src="../../image/forest/congo-map.jpg" alt="congo rainforest map">
                 <div id ="map-text" class = "center-text"><h4 >A map over the congo rainforest</h4></div>
             </div>
         </div>
@@ -69,13 +77,13 @@
             </p>
 
             <div class ="image">
-                <img src="../../image/congo-people.jpg" alt="people conserving congo forest">
+                <img src="../../image/forest/congo-people.jpg" alt="people conserving congo forest">
                 <div id ="people-text" class = "center-text"><h4 >People working to preserve the congo forest</h4></div>
             </div>
 
         </div>
 
-        <div class="banner" style="background-image: url(../../image/default-rainforest.jpg)">
+        <div class="banner" style="background-image: url(../../image/forest/animals.jpg)">
             <div class="banner-grid">
                 <div class="wave wave-top">
                 </div>
@@ -88,12 +96,13 @@
 
         <div class = "image-container">
             <div class = "image">
-                <img src="../../image/congo-forest.jpg" alt="picture of congo rainforest">
+                <img src="../../image/forest/congo-forest.jpg" alt="picture of congo rainforest">
                 <div id ="image-text" class = "center-text"><h4>Picture from inside the forest</h4></div>
             </div>
         </div>
 
     </section>
 
+    <app-footer></app-footer>
 </body>
 </html>

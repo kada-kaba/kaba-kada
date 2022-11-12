@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/donate.css">
+    <link rel="stylesheet" href="../../style/utility/wave.css">
+    <link rel="stylesheet" href="../../style/utility/banner.css">
+    <link rel="stylesheet" href="../../footer.css">
+    <link rel="stylesheet" href="../../style/index.css">
+
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
     <title>Donate</title>
 </head>
 <body>
+
+    <nav-bar></nav-bar>
+
+    <div class="banner top-banner" style="background-image: url(../../image/donate-image.jpg);">
+        <div class="banner-grid">
+            <h1>Donate</h1>
+            <div class="wave wave-bottom">
+            </div>
+        </div>
+    </div>
+
     <div class="donate-main-wrapper">
-        <h1>Donate</h1>
         <div class="donate-box-wrapper">
             <div class="donate-text-wrapper">
                 <p>Save the rainforest! What we do together over the next few years to conserve forests will determine the fate of our planet.
@@ -29,7 +47,7 @@
                     <div class="donate-input-label-wrapper">
                         <div>
                             <label for="donate-amount-input">Amount(kr):</label>
-                            <input id="donate-amount-input" placeholder="0" type="number">
+                            <input id="donate-amount-input" placeholder="0" type="number" min="0" max="10000000" required>
                         </div>
                         <div>
                             <label for="donate-howoften-input">How often:</label>
@@ -44,23 +62,22 @@
                     <div class="donate-input-label-wrapper">
                         <div>
                             <label for="donate-name-input">Name:</label>
-                            <input id="donate-name-input" placeholder="" type="text">
+                            <input id="donate-name-input" placeholder="" type="text" required>
                         </div>
                         <div>
                             <label for="donate-email-input">Email:</label>
-                            <input id="donate-email-input" placeholder="example@email.com" type="email">
+                            <input id="donate-email-input" placeholder="example@email.com" type="email" required>
                         </div>
                     </div>
                     <div class="donate-button-wrapper">
                         <button id="donate-submit-button">Donate</button>
                     </div>
                 </div>
-                <div class="donate-image-wrapper">                  
-                    <img src="../../image/donate-save-rainforest.jpg" alt="">        
-                </div>
             </div>
         </div>
     </div> 
+    <app-footer></app-footer>
 </body>
 <script src="../../script/money-donated.js"></script>
+<script src="../../script/wave.js"></script>
 </html>

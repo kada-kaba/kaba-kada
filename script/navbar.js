@@ -1,19 +1,16 @@
-let navbar = `
-<div class="navbar">
-      <a href="#" class="navbar-item">Home</a>
-      <a href="#" class="navbar-item">About </a>
-      <div class="drop">
-        <a class="drop-button">Drop</a>
-        <div class="drop-content">
-          <a href="#">A</a>
-          <a href="#">A</a>
-          <a href="#">A</a>
-        </div>
-      </div>
-      <a id="donate" href="#">Donate</a>
-    </div>
-`;
-
-document.body.insertAdjacentHTML('afterbegin', navbar);
-
-
+// this class creates a custom "footer" element for every page on the website so that we can use modularity
+class NavBar extends HTMLElement { // source : https://stackoverflow.com/questions/69961205/insert-header-and-footer-on-all-webpages-using-javascript
+  connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
+      //  refers back to the class object
+      this.innerHTML = `  
+      <nav>
+        <div class="nav-wave"></div>
+        <a href="page/about-us/about-us.html">ABOUT</a>
+        <a href="page/our-work/our-work.html">OUR WORK</a>
+        <a href="page/contact/contact.html">CONTACT</a>
+        <a href="page/donate/donate.html" id="donate-button">DONATE</a>
+    </nav>
+      `
+  }
+}
+window.customElements.define('nav-bar', NavBar) // accesses the new custom element made over 

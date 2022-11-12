@@ -8,21 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/forest.css">
     <link rel="stylesheet" href="../../style/utility/wave.css">
     <link rel="stylesheet" href="../../style/utility/banner.css">
     <link rel="stylesheet" href="../../footer.css">
+    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="../../style/index.css">
 
     <script defer src="../../script/wave.js"></script>
     <script defer src = "../../script/forest.js"></script>
 
-    <script src ="../../script/footer.js" defer></script>
+    <script src ="../../script/footer.js" defer type = "module"></script>
+    <script src = "../../script/navbar.js" defer type = "module"></script>
+
     <title>Amazon</title>
 </head>
 
 <body>
-    <navbar></navbar>
+
+    <nav-bar style = "z-index: 2;"></nav-bar>
 
     <div class="banner top-banner" style="background-image: url(../../image/forest/Amazon-Rain-Forest.jpg)">
        
@@ -33,6 +39,7 @@
             </div>
         </div>
     </div>
+    
 
     <section class ="forest-container">
         <div class = "info">
@@ -96,6 +103,6 @@
         </div>
     </section>
 
-     <app-header></app-header> <!-- Adds the custom footer element from footer.js-->
+     <app-footer></app-footer><!-- Adds the custom footer element from footer.js-->
 </body>
 </html>

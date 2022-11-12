@@ -9,7 +9,7 @@
   
   .navbar {
     position: sticky;
-    top: 0%;
+    top: 0;
     background: url(image/Jungel\ bakgrunn\ 3.webp);
     font-weight: 500;
     font-size: 18px;
@@ -19,6 +19,7 @@
     padding: 0;
     text-decoration: none;
     box-shadow: 0 0 3px 0;
+    z-index: 9999;
   }
   
   .navbar-item {

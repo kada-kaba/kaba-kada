@@ -4,19 +4,20 @@ class NavBar extends HTMLElement { // source : https://stackoverflow.com/questio
       //  refers back to the class object
       this.innerHTML = `  
       <div class="navbar">
-      <a href="#" class="navbar-item">Home</a>
-      <a href="#" class="navbar-item">About </a>
-      <div class="drop">
-        <button class="drop-button">Drop</button>
-        <div class="drop-content">
-          <a href="#">A</a>
-          <a href="#">A</a>
-          <a href="#">A</a>
+        <a href="#" class="navbar-item">Home</a>
+        <a href="#" class="navbar-item">About </a>
+        <div class="drop">
+          <button class="drop-button">Drop</button>
+          <div class="drop-content">
+            <a href="#">A</a>
+            <a href="#">A</a>
+            <a href="#">A</a> 
+          </div>
         </div>
-      </div>
-      <a id="donate" href="#">Donate</a>
+        <a id="donate" href="#">Donate</a>
     </div>
+
       `
   }
 }
-window.customElements.define('navbar', AppHeader) // accesses the new custom element made over 
+window.customElements.define('nav-bar', NavBar) // accesses the new custom element made over 

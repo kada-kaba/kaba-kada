@@ -246,10 +246,10 @@ nav a:hover {
     background-image: url(../image/sumatra.jpg);
 }
 
-footer {
+/* footer {
     background-color: var(--gray);
     height: 100px;
-}
+} */
 
 @media only screen and (max-width: 800px){
     nav {

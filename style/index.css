@@ -68,6 +68,7 @@ nav a:hover {
 }
 
 #map-container {
+    position: relative;
     margin-top: 100px;
     position: relative;
     background-size: cover;
@@ -85,9 +86,8 @@ nav a:hover {
 }
 
 #map {
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     width: 100%;
-    /* filter: drop-shadow(0 3px 0px var(--gray)); */
 }
 
 .point {

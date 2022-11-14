@@ -69,6 +69,7 @@ nav a:hover {
 }
 
 #map-container {
+    position: relative;
     margin-top: 100px;
     position: relative;
     background-size: cover;
@@ -86,9 +87,8 @@ nav a:hover {
 }
 
 #map {
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     width: 100%;
-    /* filter: drop-shadow(0 3px 0px var(--gray)); */
 }
 
 .point {
@@ -230,17 +230,17 @@ nav a:hover {
 }
 
 #amazon-card {
-    background-image: url(../image/amazon.jpg);
-    background-position: bottom;
+    background-image: url(../image/forest/amazon-rain-forest.jpg);
+    /* background-position: bottom; */
 }
 
 #congo-card {
-    background-image: url(../image/congo.jpeg);
+    background-image: url(../image/forest/congo.jpeg);
     background-position: bottom;
 }
 
 #xishuangbanna-card{
-    background-image: url(../image/xishuangbanna.jpg);
+    background-image: url(../image/forest/xishuangbanna.jpg);
 }
 
 #sumatra-card {

@@ -2,7 +2,7 @@
 class MyFooter extends HTMLElement { // source : https://stackoverflow.com/questions/69961205/insert-header-and-footer-on-all-webpages-using-javascript
     connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
         //  refers back to the class object
-        this.innerHTML = `  
+        this.innerHTML = ` 
           <footer class = "footer">
             <div class ="contact-footer">
             Contact:

@@ -234,16 +234,16 @@ nav a:hover {
 }
 
 #congo-card {
-    background-image: url(../image/congo.jpeg);
+    background-image: url(../image/forest/congo.jpeg);
     background-position: bottom;
 }
 
 #xishuangbanna-card{
-    background-image: url(../image/xishuangbanna.jpg);
+    background-image: url(../image/forest/xishuangbanna.jpg);
 }
 
 #sumatra-card {
-    background-image: url(../image/sumatra.jpg);
+    background-image: url(../image/forest/sumatra.jpg);
 }
 
 /* footer {

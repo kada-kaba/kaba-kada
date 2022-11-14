@@ -4,39 +4,36 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.main {
+/*.main {
     position: relative;
     margin-top: 20%;
     background-color: var(--grey);
-}
-.footer {
+}*/
+
+.main {
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
-    height: 2.5rem;
-    text-decoration: none;
-    background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(/image/amazon.jpg);
+    height: 100px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0, 0, 0, 0));
     color: rgb(35, 35, 35);
-    /* background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(image/Amazon-large-rendered-small.png);; */
-    
+}
+
+.main ul {
+    list-style-type:none;
 }
 .contact-footer {
-    position: absolute;
+    position: relative;
     left: 1%;
-    margin: 0 0 0 1rem;
+    margin: 0 0 5rem 1rem;
     bottom: -300%;
-
-
 }
  
 .footertitle {
     text-align: center;
 }
 
-li {
-    list-style-type: none;
-}
 .logo{
     position: relative;
     text-align: center;

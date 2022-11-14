@@ -18,26 +18,6 @@ body, html {
  /* OUR WORK PAGE  */
 
 
- #container {
-
-    
-    height: 300px;
-    width: 100%;
-    overflow: hidden;
-    
-}
-
-#banner1 {
-   width: 100%;
-   height: 100%;
-   align-items: center;
-    object-fit: cover;
-    position: relative;
-
-
-    
-}
-
 .centered {
   margin-left:50%;
   translate: -50%;
@@ -66,10 +46,22 @@ body, html {
   position: relative;
   font-size: 20px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
   
 .ourwork-text {
     padding: 0.5rem;
 }
+<<<<<<< HEAD
+  
+
+  #our-work-wave {
+    position: relative;
+    margin-top: -30px;
+=======
+>>>>>>> main
     
 #our-work-wave {
   position: relative;

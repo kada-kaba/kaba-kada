@@ -229,8 +229,8 @@ nav a:hover {
 }
 
 #amazon-card {
-    background-image: url(../image/amazon.jpg);
-    background-position: bottom;
+    background-image: url(../image/forest/amazon-rain-forest.jpg);
+    /* background-position: bottom; */
 }
 
 #congo-card {

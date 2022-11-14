@@ -16,18 +16,9 @@
     border-radius: 1vw;
 }
 
-#first-banner{
-    margin-top: 0;
-    /* height: 30vw; */
-    background-image: url(../image/amazon-large.webp);
-}
 
-#second-banner{
-    background-image: url(../image/congo.jpeg);
-    background-position: center;
-    height: 30vw;
-    margin-bottom: 0;
-}
+
+
 
 
 @media only screen and (max-width: 1000px){

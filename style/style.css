@@ -12,17 +12,8 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     scroll-behavior: smooth;
+    color: var(--gray);
 }
-
-
-
-
-
-
-/* h1 {
-    font-size: 30rem; */
-
-
 
  /* OUR WORK PAGE  */
 
@@ -75,48 +66,19 @@ body, html {
   position: relative;
   font-size: 20px;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-}
-  
-body {
-  font-family: "Oswald", sans-serif;
-  color: var(--gray);
-}
   
 .ourwork-text {
     padding: 0.5rem;
 }
-  
-#donate {
-    position: absolute;
-    /* height: 100%; */
-    right: 5px;
-    bottom: 5px;
-  
-    padding: 10px 3vw;
-  
-    /*background-color: rgb(83, 147, 88);*/
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    border: 0px solid;
-    border-color: darkred;
-    /*border-color: #195536;*/
-    border-radius: 0.5vw;
-    border-bottom-width: 0.25vw;
-  }
-  
-  #our-work-wave {
-    position: relative;
-    margin-top: -30px;
     
-   height: 75px;
-   width: 100%; 
-   
-   
-  }
+#our-work-wave {
+  position: relative;
+  margin-top: -30px;
+  
+  height: 75px;
+  width: 100%; 
+  
+  
+}
 
  /* OUR WORK PAGE */

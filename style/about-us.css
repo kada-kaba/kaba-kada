@@ -18,8 +18,8 @@
 
 #first-banner{
     margin-top: 0;
-    height: 30vw;
-    background-image: url(../image/Amazon-large-rendered-small.png);
+    /* height: 30vw; */
+    background-image: url(../image/amazon-large.webp);
 }
 
 #second-banner{

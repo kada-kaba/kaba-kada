@@ -27,4 +27,4 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
         `
     }
 }
-window.customElements.define('app-footer', MyFooter) // accesses the new custom element made over 
+window.customElements.define('app-footer', MyFooter) // accesses the new custom element made over and creates a new element called "app-footer"

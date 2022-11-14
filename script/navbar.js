@@ -5,10 +5,11 @@ class NavBar extends HTMLElement { // source : https://stackoverflow.com/questio
       this.innerHTML = `  
       <nav>
         <div class="nav-wave"></div>
-        <a href="../../page/about-us/about-us.html">ABOUT</a>
-        <a href="../../page/our-work/our-work.html">OUR WORK</a>
-        <a href="../../page/contact/contact.html">CONTACT</a>
-        <a href="../../page/donate/donate.html" id="donate-button">DONATE</a>
+      <a href="../../index.html">HOME</a>
+      <a href="../../page/about-us/about-us.html">ABOUT</a>
+      <a href="../../page/our-work/our-work.html">OUR WORK</a>
+      <a href="../../page/contact/contact.html">CONTACT</a>
+      <a href="../../page/donate/donate.html" id="donate-button">DONATE</a>
     </nav>
       `
   }

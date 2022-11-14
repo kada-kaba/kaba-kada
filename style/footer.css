@@ -2,13 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+    
 }
-
-/*.main {
-    position: relative;
-    margin-top: 20%;
-    background-color: var(--grey);
-}*/
 
 .main {
     position: absolute;
@@ -34,7 +29,7 @@
     text-align: center;
 }
 
-.logo{
+.leaf {
     position: relative;
     text-align: center;
     bottom: -105%;
@@ -57,12 +52,10 @@ img {
     scale: 1.25;
 }
 
-#leaf {
-    width: 5%;
-    position: relative;
-    left: 50%;
+#leaf{
     width: 100px;
-    translate: -50%;
+    height: 100px;
+    position: relative;
     bottom: -150px;
 }
 

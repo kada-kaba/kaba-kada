@@ -1,5 +1,7 @@
 /* same for all rainforest pages */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     line-height: 1.5;
 }
@@ -126,9 +128,16 @@ h4 {
     } 
 
     img {
-        margin: 20px;
-
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
     }
+    #forest-raised-counter {
+        top: 0px;
+    }
+  
+    
 } 
 
 

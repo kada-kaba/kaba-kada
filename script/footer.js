@@ -3,7 +3,6 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
     connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
         //  refers back to the class object
         this.innerHTML = `  
-        <div class = "main">
           <footer class = "footer">
             <div class ="contact-footer">
             Contact:
@@ -22,8 +21,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 <li><img src="/image/youtube.png" alt="YouTube"><a href="#"></a></li>
                 <li><img src="/image/instagram.png" alt="Instagram"><a href="#"></a></li>
             </div>
-        </footer>
-      </div>  
+        </footer> 
         `
     }
 }

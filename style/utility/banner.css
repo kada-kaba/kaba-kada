@@ -21,9 +21,13 @@ Banners typically look like this:
     background-size: cover;
 }
 
+/*
+Class applied to banners situated on the top of a page. 
+These banners are smaller and have 0 margin on the top
+*/
 .top-banner {
     margin-top: 0;
-    height: 30vw;
+    height: 40vw;
 }
 
 .banner-grid {

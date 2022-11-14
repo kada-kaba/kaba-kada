@@ -28,3 +28,10 @@
     height: 30vw;
     margin-bottom: 0;
 }
+
+
+@media only screen and (max-width: 1000px){
+    #flex-img{
+        display: none;
+    }
+}

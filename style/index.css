@@ -156,10 +156,6 @@ nav a:hover {
     z-index: 10;
 }
 
-/* #raised-banner {
-    background-image: url(../image/rainforest.jpg);
-} */
-
 #cards {
     position: relative;
     padding: 5vw 0vw;
@@ -250,10 +246,10 @@ nav a:hover {
     background-image: url(../image/sumatra.jpg);
 }
 
-footer {
+/* footer {
     background-color: var(--gray);
     height: 100px;
-}
+} */
 
 @media only screen and (max-width: 800px){
     nav {

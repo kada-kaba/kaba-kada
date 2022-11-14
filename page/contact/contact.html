@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../../style/style.css">
-    <link rel="stylesheet" href="../../style/contact.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style/index.css" />
+    <link rel="stylesheet" href="../../style/style.css" />
+    <link rel="stylesheet" href="../../style/contact.css" />
+    <link rel="stylesheet" href="../../style/utility/wave.css" />
+    <link rel="stylesheet" href="../../style/utility/banner.css" />
 
-    <link rel="stylesheet" href="../../style/utility/wave.css">
-    <link rel="stylesheet" href="../../style/utility/banner.css">
+
     <title>Contact</title>
-</head>
-<body>
-    <div class="banner top-banner" style="background-image: url(../../image/contact-rainforest.jpg); background-position: 50%;">
-        <div class="banner-grid">
-            <h1>Contact us</h1>
-            <div class="wave wave-bottom">
-            </div>
-        </div>
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+    <div
+      class="banner top-banner"
+      style="
+        background-image: url(../../image/contact-rainforest.jpg);
+        background-position: 50%;
+      "
+    >
+      <div class="banner-grid">
+        <h1>Contact us</h1>
+        <div class="wave wave-bottom"></div>
+      </div>
     </div>
+
     <div id="contact-info-wrapper">
         <div id="contact-email-phone-wrapper">
             <p>Email: <a href="mailto:kadakaba@example.com">kadakaba@example.com</a></p>
@@ -30,8 +38,10 @@
             <textarea placeholder="Write your message here..." id="conatct-message-wrapper" cols="60" rows="10"></textarea>
         </div>
         <button id="contact-submit-button">SEND</button>
+
     </div>
-<script src="../../script/message-sent.js"></script>
-<script src="../../script/wave.js"></script>
-</body>
+    <script src="../../script/navbar.js" type="module"></script>
+    <script src="../../script/message-sent.js"></script>
+    <script src="../../script/wave.js"></script>
+  </body>
 </html>

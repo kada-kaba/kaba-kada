@@ -506,6 +506,7 @@ nav #donate-button:hover {
 #contact-page #contact-submit-button:hover{
   color: white;
   padding: 10px 5vw;
+  cursor: pointer;
 }
 
 #contact-page #contact-submit-button:active {

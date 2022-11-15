@@ -46,7 +46,7 @@ These banners are smaller and have 0 margin on the top
     color: white;
 }
 
-.banner h1 { font-size: 8vw; }
+.banner h1 { font-size: 7vw; }
 .banner h2 { font-size: 2vw; }
 
 /* Counters start outside the screen so they can be animated in */

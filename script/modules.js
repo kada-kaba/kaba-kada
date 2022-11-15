@@ -25,7 +25,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                     <a href="#"><img src="/image/logo/twitter.png" alt="Twitter" /></a>
                     </li>
                     <li>
-                    <a href="#"><img src="/image/logo/youtube.png" alt="YouTube" /></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/image/logo/youtube.png" alt="YouTube" /></a>
                     </li>
                     <li>
                     <a href="#"><img src="/image/logo/instagram.png" alt="Instagram" /></a>

@@ -335,4 +335,143 @@ nav #donate-button:hover {
   
 }
 
- /* OUR WORK PAGE */
+/* OUR WORK PAGE */
+/* FOREST PAGES */
+
+/* same for all rainforest pages */
+
+.forest-page h1 {
+  position: relative;
+  top: 0;
+}
+
+.forest-page h2 {
+  text-align: center;
+}
+
+.forest-page h4 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* div for all images inside the rainforest pages and the image text */
+.forest-page .image {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+/* styles all images inside the rainforest pages */
+.forest-page .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 17px;
+  object-fit: cover;
+}
+
+.forest-page #map-text {
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+  padding-left: 20px;
+  word-wrap: break-word;
+}
+
+.forest-page #people-text {
+  display: inline-block;
+  position: relative;
+  bottom: -20px;
+  padding-left: 20px;
+  word-wrap: break-word;
+}
+
+.forest-page #image-text {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  white-space: normal;
+}
+
+/* grid container for all divs */
+.forest-page .forest-container { /* https://cssgrid-generator.netlify.app/  generator which generates columns and rows for display:grid*/
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* centers all image texts */
+.forest-page .center-text {
+  left: 50%;
+  translate: -50%;
+}
+
+/* info div for all forest pages */
+.forest-page .info {
+  box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+  border-radius: 17px;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin-left: 50%;
+  margin-top: 100px;
+  translate: -50%;
+  width: 50%;
+}
+
+/* our-work div for all forest pages */
+.forest-page .our-work {
+  box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+  border-radius: 17px;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin-left: 50%;
+  translate: -50%;
+  width: 50%;
+}
+
+/* image div for all forest pages */
+.forest-page .image-container {
+  box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+  border-radius: 17px;
+  align-items: right;
+  height: 60%;
+  padding: 20px;
+  padding-bottom: 35px;
+  margin-left: 50%;
+  translate: -50%;
+  width: 50%;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  .forest-page .forest-container {
+      width: 100%;
+      grid-template-columns:  1fr;
+  }
+
+  .forest-page .info { box-shadow: none; }
+
+  .forest-page .our-work { box-shadow: none; }
+
+  .forest-page .image-container { box-shadow: none; } 
+
+  .forest-page img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+  .forest-page #forest-raised-counter { top: 0px; }
+
+  .forest-page .top-banner { top: 100px; }
+
+  .forest-page .top-banner h1 {
+      top: -20px;
+      left: -5px;
+  }
+}
+
+ /* FOREST PAGES */

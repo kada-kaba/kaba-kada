@@ -18,12 +18,12 @@ body, html {
  /* OUR WORK PAGE  */
 
 
-.centered {
+#our-work-page .centered {
   margin-left:50%;
   translate: -50%;
 }
 
-#information-box {
+#our-work-page #information-box {
     position: relative;
   
     margin-top:0px;
@@ -32,7 +32,7 @@ body, html {
     float: left;
 }
 
-#slide {
+#our-work-page #slide {
   
     width: 100%;
     height: auto;
@@ -42,35 +42,14 @@ body, html {
     border-radius: 10px 
 }
 
-#ourwork-text-after {
+#our-work-page #ourwork-text-after {
   position: relative;
   font-size: 20px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> main
   
-.ourwork-text {
+#our-work-page .ourwork-text {
     padding: 0.5rem;
 }
-<<<<<<< HEAD
-  
 
-  #our-work-wave {
-    position: relative;
-    margin-top: -30px;
-=======
->>>>>>> main
-    
-#our-work-wave {
-  position: relative;
-  margin-top: -30px;
-  
-  height: 75px;
-  width: 100%; 
-  
-  
-}
 
  /* OUR WORK PAGE */

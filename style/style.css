@@ -441,8 +441,6 @@ nav #donate-button:hover {
   width: 50%;
 }
 
-/* media queries */
-
 @media only screen and (max-width: 768px) {
   .forest-page .forest-container {
       width: 100%;
@@ -472,3 +470,67 @@ nav #donate-button:hover {
 }
 
  /* FOREST PAGES */
+ /* CONTACT PAGE */
+
+ #contact-page #contact-info-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 5%;
+}
+
+#contact-page #contact-info-wrapper p { font-size: 18px; }
+
+#contact-page #contact-email-phone-wrapper { margin-bottom: 20px; }
+
+#contact-page #contact-submit-button {
+  position: relative;
+  margin-bottom: 0;
+
+  padding: 10px 3vw;
+
+  background-color: var(--green);
+  border: 0px solid;
+  border-color: #195536;
+  border-radius: 0.5vw;
+  border-bottom-width: 0.25vw;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  transition-duration: 0.2s;
+}
+
+#contact-page #contact-submit-button:hover{
+  color: white;
+  padding: 10px 5vw;
+}
+
+#contact-page #contact-submit-button:active {
+  border-bottom-width: 0px;
+  margin-top: 0.25vw;
+}
+
+#contact-page #contact-message-wrapper textarea {
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.7);
+  outline: none;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px){
+  #contact-page #contact-info-wrapper {
+      margin-top: 20px;
+  }
+
+  #contact-page #contact-message-wrapper textarea {
+      width: 300px;
+  }
+}
+
+ /* CONTACT PAGE */

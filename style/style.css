@@ -83,7 +83,214 @@ nav #donate-button:hover {
   border-bottom-width: 0px;
 }
 
+@media only screen and (max-width: 800px){
+  nav {
+      height: 75px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  nav a {
+    font-size: 3vw;
+    padding-left: 5vw;
+  }
+
+  #donate-button {
+      top: auto;
+      bottom: -5px;
+      right: 30px;
+      border-bottom-width: 0.5vw;
+      border-radius: 1vw;
+  }
+}
+
 /* NAV BAR */
+/* INDEX PAGE */
+
+/* Dansemoves fra Mikkes klubbhus */
+
+#index-page #map-container {
+  position: relative;
+  margin-top: 100px;
+  position: relative;
+  background-size: cover;
+  background-image: url(../image/amazon-large.webp);
+  background-position: bottom;
+
+  width: 100%;
+}
+
+#index-page .green-tint {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(83, 147, 88, 0.85);
+}
+
+#index-page #map {
+  margin-bottom: -10px;
+  width: 100%;
+}
+
+#index-page .point {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  display: flex;
+
+  translate: -50% -50%;
+
+  transition-duration: 0.2s;
+}
+
+#index-page .point > div {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  rotate: 45deg;
+
+  border-radius: 10px;
+  border: 5px solid var(--gray);
+  padding: 2px;
+
+  transition-duration: inherit;
+  scale: 0.4;
+  display: flex;
+}
+
+#index-page .point > div > div {
+  scale: 0.75;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 10px;
+
+  background-color: var(--gray);
+
+  transition-duration: inherit;
+}
+
+#index-page .point:hover {
+  padding: 0;
+  cursor: pointer;
+}
+
+#index-page .point:hover div {
+  /*90 + 45*/
+  rotate: 135deg;
+
+  border-color: red;
+  scale: 0.6;
+}
+
+#index-page .point:hover > div > div {
+  rotate: -135deg;
+  background-color: red;
+}
+
+#index-page #cards {
+  position: relative;
+  padding: 5vw 0vw;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+#index-page .card {
+  margin: 1vw;
+  border-radius: 1vw;
+
+  width: 40vw;
+  flex-grow: 1;
+  aspect-ratio: 2 / 0.75;
+  background-color: white;
+
+  background-size: cover;
+  backdrop-filter: blur(2px);
+
+  overflow: hidden;
+  background-position: center;
+}
+
+#index-page .card-tint {
+  width: 100%;
+  height: 100%;
+
+  padding: 2vw;
+
+  background-color: rgba(83, 147, 88, 0.5);
+  transition-duration: 0.2s;
+}
+
+#index-page .card:hover .card-tint {
+  background-color: rgba(83, 147, 88, 0.25);
+}
+
+#index-page .card-content {
+  width: 43vw;
+  height: 45%;
+
+  bottom: -20%;
+
+  position: absolute;
+
+  color: white;
+  text-decoration: none;
+
+  transition-duration: 0.2s;
+}
+
+#index-page .card:hover .card-content {
+  bottom: 10%;
+}
+
+#index-page .card h2 {
+  height: 5%;
+  font-size: 2.5vw;
+  letter-spacing: 4px;
+}
+
+#index-page .card p {
+  margin-top: 10%;
+  height: 25%;
+  font-size: 1.5vw;
+}
+
+#index-page .card h2, .card p {
+  text-shadow: 0 0px 5px black;
+}
+
+@media only screen and (max-width: 1000px){
+  #index-page #map-container {
+      margin-top: 80px;
+  }
+
+  #index-page .card {
+      width: 90vw;
+  }
+  
+  #index-page .card-content {
+      bottom: -25%;
+  }
+  
+  #index-page .card:hover .card-content {
+      bottom: -5%;
+  }
+  
+  #index-page .card h2 {
+      font-size: 4vw;
+  }
+  
+  #index-page .card p {
+      width: 55vw;
+      margin-top: 15%;
+      font-size: 2vw;
+  }
+}
+
+/* INDEX PAGE */
 /* OUR WORK PAGE  */
 
 .centered {

@@ -1,4 +1,3 @@
-
 var i = 0; // start 
 var images = [];
 var time = 2500; // milliseconds for each image

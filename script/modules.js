@@ -59,7 +59,6 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
       <a href="../forest/congo.html">CONGO</a>
       <a href="../forest/sumatra.html">SUMATRA</a>
       <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
-      
     </div>
     <a href="../donate/donate.html" id="donate-button">DONATE</a>
     </nav>

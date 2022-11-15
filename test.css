@@ -1,5 +1,4 @@
 .main {
-    margin-top: 20px;
     position: relative;
     height: 200px;
     width: 100%;
@@ -35,7 +34,7 @@
 .media {
     position: absolute;
     right: 100px;
-    top: 25px;
+    top: 38px;
 }
 
 .media img:hover {

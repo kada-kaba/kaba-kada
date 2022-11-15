@@ -62,12 +62,14 @@ nav a:hover {
     border-bottom-width: 0.25vw;
 }
 
+
 #donate-button:hover {
     color: white;
     border-bottom-width: 0px;
 }
 
 #map-container {
+    position: relative;
     margin-top: 100px;
     position: relative;
     background-size: cover;
@@ -85,9 +87,8 @@ nav a:hover {
 }
 
 #map {
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     width: 100%;
-    /* filter: drop-shadow(0 3px 0px var(--gray)); */
 }
 
 .point {
@@ -229,8 +230,8 @@ nav a:hover {
 }
 
 #amazon-card {
-    background-image: url(../image/amazon.jpg);
-    background-position: bottom;
+    background-image: url(../image/forest/amazon-rain-forest.jpg);
+    /* background-position: bottom; */
 }
 
 #congo-card {
@@ -243,7 +244,7 @@ nav a:hover {
 }
 
 #sumatra-card {
-    background-image: url(../image/sumatra.jpg);
+    background-image: url(../image/forest/sumatra.jpg);
 }
 
 /* footer {

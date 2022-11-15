@@ -10,7 +10,22 @@ const data = [
         min: 100,
         max: 1000,
         prefix: ""
-    }
+
+
+    },
+    {
+        id: "forest-raised-counter",
+        min: 10000,
+        max: 500000,
+        prefix: ""
+    },  
+    {
+        id: "animal-raised-counter",
+        min: 1000,
+        max: 50000,
+        prefix: ""
+    }  
+    
 ]
 
 const observer = new IntersectionObserver((entries) => {

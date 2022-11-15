@@ -1,59 +1,84 @@
-.contact-info-wrapper {
+#contact-info-wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -50px;
+
+    padding-bottom: 5%;
 }
 
-.contact-info-wrapper p {
+#contact-info-wrapper p {
     font-size: 18px;
 }
 
-.contact-email-phone-wrapper {
+#contact-email-phone-wrapper {
     margin-bottom: 20px;
 }
 
-#contact-submit-button {
+/* #contact-submit-button {
     background-color: #156102;
-    padding: 5px 15px 5px 15px;
+    padding: 1vw 2vw;
     border-radius: 5px;
     font-size: 18px;
     color: white;
     border: none;
     box-shadow: 0px 1px 3px 0px grey;
+    transition: 0.2s ease;
 }
 
 #contact-submit-button:hover{
     cursor: pointer;
     background-color: #104A02;
-    transition: 0.3s ease;
-    padding: 5px 20px 5px 20px;
+    /* padding: 5px 20px 5px 20px;
     animation-duration: 0.3s;
+} */
+
+#contact-submit-button {
+    position: relative;
+    margin-bottom: 0;
+
+    padding: 10px 3vw;
+
+    background-color: var(--green);
+    border: 0px solid;
+    border-color: #195536;
+    border-radius: 0.5vw;
+    border-bottom-width: 0.25vw;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    transition-duration: 0.2s;
+}
+
+#contact-submit-button:hover{
+    color: white;
+    padding: 10px 5vw;
 }
 
 #contact-submit-button:active {
-    transform: translate(1px,1px);
+    border-bottom-width: 0px;
+    margin-top: 0.25vw;
 }
 
-.conatct-message-wrapper textarea {
-    margin-top: 10px;
+#contact-message-wrapper textarea {
+    /* margin-top: 10px; */
     font-size: 16px;
     padding: 15px;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.7);
     outline: none;
-    max-width: 100%;
+    /* max-width: 50%; */
     margin-bottom: 10px;
 }
 
 @media screen and (max-width: 800px){
-    .contact-info-wrapper {
+    #contact-info-wrapper {
         margin-top: 20px;
     }
 
-    .conatct-message-wrapper textarea {
+    #contact-message-wrapper textarea {
         width: 300px;
 
 }

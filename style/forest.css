@@ -8,7 +8,7 @@ body {
 
 h1 {
     position: relative;
-    top: -50px;
+    top: 0;
 }
 
 h2 {
@@ -78,6 +78,7 @@ h4 {
     padding: 20px;
     padding-bottom: 50px;
     margin-left: 50%;
+    margin-top: 100px;
     translate: -50%;
     width: 50%;
 }
@@ -116,7 +117,7 @@ h4 {
         width: 100%;
         grid-template-columns:  1fr;
     }
-     .info {
+    .info {
         box-shadow: none;
     }
     .our-work {
@@ -135,6 +136,13 @@ h4 {
     }
     #forest-raised-counter {
         top: 0px;
+    }
+    .top-banner {
+        top: 100px;
+    }
+    .top-banner h1 {
+        top: -20px;
+        left: -5px;
     }
   
     

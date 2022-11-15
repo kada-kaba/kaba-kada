@@ -91,8 +91,10 @@ nav #donate-button:hover {
   nav a {
     font-size: 3vw;
     padding-left: 5vw;
-  }
 
+
+  }
+}
   #donate-button {
       top: auto;
       bottom: -5px;
@@ -100,7 +102,7 @@ nav #donate-button:hover {
       border-bottom-width: 0.5vw;
       border-radius: 1vw;
   }
-}
+
 
 /* NAV BAR */
 /* INDEX PAGE */
@@ -617,7 +619,7 @@ img {
   background-color: inherit;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 0; 
 }
 
 /* Change color of dropdown links on hover */

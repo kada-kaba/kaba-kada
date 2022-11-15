@@ -50,16 +50,20 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
       <a href="../about-us/about-us.html">ABOUT</a>
       <a href="../our-work/our-work.html">OUR WORK</a>
       <a href="../contact/contact.html">CONTACT</a>
+
       <div class="dropdown">
       <button class="dropbtn">FOREST
       <i class="fa fa-caret-down"></i>
       </button>
+
     <div class="dropdown-content">
       <a href="../forest/amazon.html">AMAZON</a>
       <a href="../forest/congo.html">CONGO</a>
       <a href="../forest/sumatra.html">SUMATRA</a>
       <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
     </div>
+    </div>
+
     <a href="../donate/donate.html" id="donate-button">DONATE</a>
     </nav>
         `

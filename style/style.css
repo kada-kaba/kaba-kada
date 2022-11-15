@@ -692,4 +692,26 @@ image {
   
 }
 
+/* mobile devices */
+@media  screen and (max-width: 500px) {
+  .media {
+    right: -35vw;
+  }
+  
+}
+
+ /* FOOTER  + DROPDOWN NAV*/
+
+ /* 404 PAGE */
+
+ #error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--gray);
+}
+  
 /* FOOTER AND DROPDOWN NAV */

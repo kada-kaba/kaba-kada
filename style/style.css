@@ -89,11 +89,8 @@ nav #donate-button:hover {
 
 @media screen and (max-width: 1000px){
   nav a {
-    /* font-size: 2vw; */
-    /* padding-left: 5vw; */
-    padding: 0 1vw;
-
-
+    font-size: 3vw;
+    padding-left: 5vw;
   }
 }
   #donate-button {

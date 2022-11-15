@@ -84,9 +84,7 @@ nav #donate-button:hover {
 }
 
 @media only screen and (max-width: 800px){
-  nav {
-      height: 75px;
-  }
+  nav { height: 75px; }
 }
 
 @media screen and (max-width: 1000px){
@@ -200,12 +198,11 @@ nav #donate-button:hover {
 
 #index-page .card {
   margin: 1vw;
-  border-radius: 1vw;
+  border-radius: 0.5vw;
 
   width: 40vw;
   flex-grow: 1;
   aspect-ratio: 2 / 0.75;
-  background-color: white;
 
   background-size: cover;
   backdrop-filter: blur(2px);

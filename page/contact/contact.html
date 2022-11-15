@@ -1,52 +1,43 @@
 <!DOCTYPE html>
-<html lang="en
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style/index.css" />
-    <link rel="stylesheet" href="../../style/style.css" />
-    <link rel="stylesheet" href="../../style/contact.css" />
-    <link rel="stylesheet" href="../../style/utility/wave.css" />
-    <link rel="stylesheet" href="../../style/utility/banner.css" />
 
-    <title>Contact</title>
-  </head>
-  <body>
-    <nav-bar></nav-bar>
-    <div
-      class="banner top-banner"
-      style="
-        background-image: url(../../image/contact-rainforest.jpg);
-        background-position: 50%;
-      "
-    >
-      <div class="banner-grid">
-        <h1>Contact us</h1>
-        <div class="wave wave-bottom"></div>
-      </div>
-    </div>
+<head>
+  <meta charset=" UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div id="contact-info-wrapper">
-      <div id="contact-email-phone-wrapper">
-        <p>
-          Email: <a href="mailto:kadakaba@example.com">kadakaba@example.com</a>
-        </p>
-        <p>Telephone: <a href="tel:+47 46 60 89 96">+47 46 60 89 96</a></p>
-      </div>
-      <div id="contact-message-wrapper">
-        <p><label for="contact-send-message">Send us a message:</label></p>
-        <textarea
-          placeholder="Write your message here..."
-          id="conatct-message-wrapper"
-          cols="60"
-          rows="10"
-        ></textarea>
-      </div>
-      <button id="contact-submit-button">SEND</button>
+  <link rel="stylesheet" href="../../style/style.css" />
+  <link rel="stylesheet" href="../../style/utility/wave.css" />
+  <link rel="stylesheet" href="../../style/utility/banner.css" />
+  <link rel="stylesheet" href="../../style/nav-footer.css"/>
+
+  <title>Contact</title>
+</head>
+
+<body id="contact-page">
+  <nav-bar></nav-bar>
+  <div class="banner top-banner" style="background-image: url(../../image/contact-rainforest.jpg);">
+    <div class="banner-grid">
+      <h1>Contact Us</h1>
+      <div class="wave wave-bottom"></div>
     </div>
-    <script src="../../script/navbar.js" type="module"></script>
-    <script src="../../script/message-sent.js"></script>
-    <script src="../../script/wave.js"></script>
-  </body>
+  </div>
+
+  <div id="contact-info-wrapper">
+    <div id="contact-email-phone-wrapper">
+      <p>
+        Email: <a href="mailto:kadakaba@example.com">Loremipsum@ntnu.no</a>
+      </p>
+      <p>Telephone: <a href="tel:+47 46 60 89 96">+47 12 34 56 78</a></p>
+    </div>
+    <div id="contact-message-wrapper">
+      <p><label for="contact-send-message">Send us a message:</label></p>
+      <textarea placeholder="Write your message here..." id="conatct-message-wrapper" cols="60" rows="10"></textarea>
+    </div>
+    <button id="contact-submit-button">SEND</button>
+  </div>
+  <script src = "../../script/modules.js" type = "module"></script>
+   <script src="../../script/message-sent.js"></script>
+   <script src="../../script/wave.js"></script>
+</body>
+
 </html>

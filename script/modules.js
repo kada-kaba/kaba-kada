@@ -16,7 +16,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 </div>
 
                 <div class="logo">
-                <img id = "leaf" src="/GIF/leaf.gif" alt="logo">
+                <a href = "#Top"><img id = "leaf" src="/GIF/leaf.gif" alt="logo"/></a>
                 </div>
 
                 <div class="media">

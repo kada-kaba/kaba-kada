@@ -2,10 +2,8 @@
 class MyFooter extends HTMLElement { // source : https://stackoverflow.com/questions/69961205/insert-header-and-footer-on-all-webpages-using-javascript
     connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
         //  refers back to the class object
-        this.innerHTML = ` 
-        <link rel="stylesheet" href="../../css/index.css">
-        <link rel="stylesheet" href="/test.css" 
-        <div class="nav-wave">
+        this.innerHTML = `
+    
             <footer> 
             <div class="main">
                 <div class="contact-footer">
@@ -36,9 +34,30 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 </div>
             </div>
             </footer>
-    </div>
         `
     }
 }
 
-window.customElements.define('app-footer', MyFooter) // accesses the new custom element made over and creates a new element called "app-footer"
+customElements.define('app-footer', MyFooter) // accesses the new custom element made over and creates a new element called "app-footer"
+
+class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/questions/69961205/insert-header-and-footer-on-all-webpages-using-javascript
+    connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
+        //  refers back to the class object
+        this.innerHTML = ` 
+        <nav>
+        <div class="nav-wave"></div>
+      <a href="../index/index.html"><img src ="/image/logo/leaf.png" alt = "green leaf logo" style = position: absolute; "margin-top:20vh; height: 30%;"></a>
+      <a href="../about-us/about-us.html">ABOUT</a>
+      <a href="../our-work/our-work.html">OUR WORK</a>
+      <a href="../contact/contact.html">CONTACT</a>
+      <a href="../donate/donate.html" id="donate-button">DONATE</a>
+    </nav>
+        `
+    }
+}
+
+customElements.define('nav-bar', MyNavbar) // accesses the new custom element made over and creates a new element called "app-footer"
+
+
+
+// also this video explained it really well: https://www.youtube.com/watch?v=j5Sl6vx_l1s

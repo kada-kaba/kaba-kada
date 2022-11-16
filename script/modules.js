@@ -11,7 +11,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 <li>Contact:</li>
                 <li>Loremipsum@ntnu.no</li>
                 <li>Klostergata 29 Brazil caralho</li>
-                <li>Postnr ellerno idk</li>
+                <li>+47 12 34 56 78</li>
             </ul>
             </div>
 

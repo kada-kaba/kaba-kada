@@ -62,6 +62,10 @@ transition: color border;
 transition-duration: 0.1s;
 }
 
+#nav-leaf-logo {
+  top: 50%;
+}
+
 nav a:hover { color:var(--green); }
 
 nav #donate-button {
@@ -89,8 +93,8 @@ nav { height: 75px; }
 
 @media screen and (max-width: 1000px){
 nav a {
-  /* font-size: 2vw; */
-  /* padding-left: 5vw; */
+  font-size: 2vw; 
+   padding-left: 5vw; 
   padding: 0 1vw;
 }
 
@@ -102,11 +106,24 @@ nav a {
     border-radius: 1vw;
 }
 }
+  /* nav a {
+    font-size: 3vw;
+    padding-left: 5vw;
+  } */
+
+  #donate-button {
+      top: auto;
+      bottom: -5px;
+      right: 30px;
+      border-bottom-width: 0.5vw;
+      border-radius: 1vw;
+  }
+
+
 
 /* NAV BAR */
 /* INDEX PAGE */
 
-/* Dansemoves fra Mikkes klubbhus */
 
 #index-page #map-container {
 position: relative;
@@ -291,12 +308,12 @@ text-shadow: 0 0px 5px black;
 /* INDEX PAGE */
 /* OUR WORK PAGE  */
 
-.centered {
+#our-work-page .centered {
 margin-left:50%;
 translate: -50%;
 }
 
-#information-box {
+#our-work-page #information-box {
   position: relative;
 
   margin-top:0px;
@@ -305,7 +322,7 @@ translate: -50%;
   float: left;
 }
 
-#slide {
+#our-work-page #slide {
   width: 100%;
   height: auto;
   position: relative;
@@ -314,16 +331,18 @@ translate: -50%;
   border-radius: 10px 
 }
 
-#ourwork-text-after {
+#our-work-page  #ourwork-text-after {
 position: relative;
-font-size: 20px;
+font-size: 1.5vw;
+width: 50%;
+margin-bottom: px;
 }
 
-.ourwork-text {
+#our-work-page  .ourwork-text {
   padding: 0.5rem;
 }
   
-#our-work-wave {
+#our-work-page  #our-work-wave {
 position: relative;
 margin-top: -30px;
 
@@ -610,15 +629,16 @@ margin-bottom: -1px;
 }   
 
 .dropdown .dropbtn { /* should style the button so it look like a normal link */
-font-size: 1.5vw;    
-border: none;
-outline: none;
-color: white;
-padding: 14px 16px;
-background-color: inherit;
-font-weight: bold;
-letter-spacing: 1px;
-margin: 0;
+  font-size: 1.5vw;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0; 
+
 }
 
 /* Change color of dropdown links on hover */
@@ -693,4 +713,26 @@ height: 60px !important;
 
 }
 
+/* mobile devices */
+@media  screen and (max-width: 500px) {
+  .media {
+    right: -35vw;
+  }
+  
+}
+
+ /* FOOTER  + DROPDOWN NAV*/
+
+ /* 404 PAGE */
+
+ #error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--gray);
+}
+  
 /* FOOTER AND DROPDOWN NAV */

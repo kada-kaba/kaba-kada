@@ -896,11 +896,11 @@ transform: translate(1px, 1px);
   width: 90%;
   margin-left: 5%;
 
-gap: 50px;
+  gap: 50px;
 
-display: flex;
-flex-direction: row;
-align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 #about-us-page #flex-img {

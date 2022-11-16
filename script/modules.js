@@ -20,18 +20,19 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 </a>
             </div>
 
-            <div class="media">
-            <ul>
-                <li>
-                    <a href="#"><img src="../../image/logo/twitter.png" alt="Twitter" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../../image/logo/youtube.png" alt="YouTube" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="../../image/logo/instagram.png" alt="Instagram" /></a>
-                </li>
-            </ul>
+                <div class="media">
+                <ul>
+                    <li>
+                    <a href="#"><img src="/image/logo/twitter.png" alt="Twitter" /></a>
+                    </li>
+                    <li>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/image/logo/youtube.png" alt="YouTube" /></a>
+                    </li>
+                    <li>
+                    <a href="#"><img src="/image/logo/instagram.png" alt="Instagram" /></a>
+                    </li>
+                </ul>
+                </div>
             </div>
         </div>
         </footer>`;
@@ -46,24 +47,27 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
     this.innerHTML = ` 
     <nav>
         <div class="nav-wave"></div>
-            <a href="../index/index.html" id="nav-icon">
-                <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
-            </a>
-            <a href="../about-us/about-us.html">ABOUT</a>
-            <a href="../our-work/our-work.html">OUR WORK</a>
-            <a href="../contact/contact.html">CONTACT</a>
-        <div class="dropdown">
-            <button class="dropbtn">FOREST
-                <i class="fa fa-caret-down"></i>
-            </button>
-        <div class="dropdown-content">
-            <a href="../forest/amazon.html">AMAZON</a>
-            <a href="../forest/congo.html">CONGO</a>
-            <a href="../forest/sumatra.html">SUMATRA</a>
-            <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
-        </div>
-        <a href="../donate/donate.html" id="donate-button">DONATE</a>
-    </nav>`
+      <a href="../index/index.html"><img src ="/image/logo/leaf.png" alt = "green leaf logo"></a>
+      <a href="../about-us/about-us.html">ABOUT</a>
+      <a href="../our-work/our-work.html">OUR WORK</a>
+      <a href="../contact/contact.html">CONTACT</a>
+
+      <div class="dropdown">
+      <button class="dropbtn">FOREST
+      <i class="fa fa-caret-down"></i>
+      </button>
+
+    <div class="dropdown-content">
+      <a href="../forest/amazon.html">AMAZON</a>
+      <a href="../forest/congo.html">CONGO</a>
+      <a href="../forest/sumatra.html">SUMATRA</a>
+      <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
+    </div>
+    </div>
+
+    <a href="../donate/donate.html" id="donate-button">DONATE</a>
+    </nav>
+        `
     }
 }
 

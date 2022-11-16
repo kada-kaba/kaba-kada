@@ -47,7 +47,7 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
     this.innerHTML = ` 
     <nav>
         <div class="nav-wave"></div>
-        <a href="../index/index.html" id="nav-icon">
+        <a href="index.html" id="nav-icon">
             <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
         </a>
         <a href="../about-us/about-us.html" class="link">ABOUT</a>

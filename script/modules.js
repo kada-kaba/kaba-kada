@@ -53,9 +53,7 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
         <a href="../our-work/our-work.html">OUR WORK</a>
         <a href="../contact/contact.html">CONTACT</a>
         <div class="dropdown">
-            <button class="dropbtn">FOREST
-                <i class="fa fa-caret-down"></i>
-            </button>
+            <button class="dropbtn">FOREST</button>
             <div class="dropdown-content">
                 <a href="../forest/amazon.html">AMAZON</a>
                 <a href="../forest/congo.html">CONGO</a>

@@ -443,7 +443,15 @@ translate: -50%;
 
 #ourwork-text-after {
 position: relative;
-font-size: 20px;
+font-size: 1.5vw;
+width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+.centered, #information-box, #ourwork-text-after {
+  width: 80%;
+  font-size: 2.3vw;
+}
 }
 
 .ourwork-text {

@@ -730,7 +730,7 @@ border-bottom-width: 0px;
 margin-top: 0.25vw;
 }
 
-#contact-page #contact-message-wrapper textarea {
+#contact-page .contact-message-wrapper textarea {
   font-size: 16px;
   padding: 15px;
   border-radius: 5px;
@@ -745,7 +745,7 @@ margin-top: 0.25vw;
     margin-top: 20px;
   }
 
-#contact-page #contact-message-wrapper textarea {
+#contact-page .contact-message-wrapper textarea {
     width: 300px;
 }
 }

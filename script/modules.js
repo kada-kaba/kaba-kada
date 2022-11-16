@@ -56,11 +56,12 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
         <div class="dropdown">
             <button class="dropbtn">FOREST
             </button>
-        <div class="dropdown-content">
-            <a href="../forest/amazon.html">AMAZON</a>
-            <a href="../forest/congo.html">CONGO</a>
-            <a href="../forest/sumatra.html">SUMATRA</a>
-            <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
+            <div class="dropdown-content">
+                <a href="../forest/amazon.html">AMAZON</a>
+                <a href="../forest/congo.html">CONGO</a>
+                <a href="../forest/sumatra.html">SUMATRA</a>
+                <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
+            </div>
         </div>
         <a href="../donate/donate.html" id="donate-button">DONATE</a>
     </nav>`

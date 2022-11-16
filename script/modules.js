@@ -5,6 +5,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
         this.innerHTML = `
         <footer> 
         <div class="main">
+            <div class="nav-wave-inverted"></div>
             <div class="contact-footer">
             <ul>
                 <li>Contact:</li>

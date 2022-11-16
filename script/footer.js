@@ -43,37 +43,3 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
 
 window.customElements.define('app-footer', MyFooter) // accesses the new custom element made over and creates a new element called "app-footer"
 
-/*        <link rel="stylesheet" href="../../css/index.css">
-        <link rel="stylesheet" href="/test.css">
-            <div class="nav-wave-inverted"> 
-            <footer> 
-            <div class="main">
-                <div class="contact-footer">
-                <ul>
-                    <li>Contact:</li>
-                    <li>Loremipsum@ntnu.no</li>
-                    <li>Klostergata 29 Brazil caralho</li>
-                    <li>Postnr ellerno idk</li>
-                </ul>
-                </div>
-
-                <div class="logo">
-                <img id = "leaf" src="/GIF/leaf.gif" alt="logo">
-                </div>
-
-                <div class="media">
-                <ul>
-                    <li>
-                    <a href="#"><img src="/image/logo/twitter.png" alt="Twitter" /></a>
-                    </li>
-                    <li>
-                    <a href="#"><img src="/image/logo/youtube.png" alt="YouTube" /></a>
-                    </li>
-                    <li>
-                    <a href="#"><img src="/image/logo/instagram.png" alt="Instagram" /></a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-            </footer>
-    </div>*/

@@ -556,7 +556,7 @@ nav #donate-button:hover {
   position: relative;
   height: 200px;
   width: 100%;
-  background-color: rgb(15, 15,15);
+  background-color: var(--gray);
   overflow: hidden;
 }
 
@@ -593,7 +593,7 @@ nav #donate-button:hover {
 .media {
   position: absolute;
   right: 100px;
-  top: 25px;
+  top: 37px;
 }
 
 .media img:hover {

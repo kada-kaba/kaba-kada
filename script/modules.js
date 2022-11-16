@@ -23,13 +23,13 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
             <div class="media">
             <ul>
                 <li>
-                    <a href="#"><img src="../../image/logo/twitter.png" alt="Twitter" /></a>
+                    <a href="https://www.twitter.com/"><img src="../../image/logo/twitter.png" alt="Twitter" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="../../image/logo/youtube.png" alt="YouTube" /></a>
+                    <a href="https://www.youtube.com/"><img src="../../image/logo/youtube.png" alt="YouTube" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="../../image/logo/instagram.png" alt="Instagram" /></a>
+                    <a href="https://www.instagram.com/"><img src="../../image/logo/instagram.png" alt="Instagram" /></a>
                 </li>
             </ul>
             </div>
@@ -54,7 +54,6 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
             <a href="../contact/contact.html">CONTACT</a>
         <div class="dropdown">
             <button class="dropbtn">FOREST
-                <i class="fa fa-caret-down"></i>
             </button>
         <div class="dropdown-content">
             <a href="../forest/amazon.html">AMAZON</a>

@@ -167,6 +167,7 @@ nav .dropdown:hover .dropdown-content {
   nav .dropdown {
     padding: 0;
     font-size: 2vw;
+    margin-bottom: 2px;
   }
 
   nav .dropdown .dropbtn {
@@ -681,6 +682,188 @@ footer img {
 }
 
 /* CONTACT PAGE */
+/* DONATE PAGE */
+
+#donate-page .donate-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100vh; */
+  align-items: center;
+}
+
+#donate-page .donate-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  border-radius: 17px;
+  box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+  padding: 20px 0 40px 0;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+#donate-page .donate-text-wrapper {
+  height: 20%;
+  padding: 20px 60px 50px 60px;
+  font-size: 18px;
+}
+
+#donate-page .donate-input-wrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#donate-page .donate-input-wrapper input, #donate-page .donate-input-wrapper select {
+  width: 180px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+}
+
+#donate-page .donate-input-wrapper input{
+  border-bottom: 1px solid rgba(16, 74, 2, 0.5);
+  transition: border-bottom 0.1s;
+}
+
+#donate-page .donate-input-wrapper input:focus{
+  border-bottom: 1.3px solid rgba(16, 74, 2, 1);
+
+}
+
+#donate-page .donate-form-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#donate-page .donate-form-wrapper div{
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#donate-page #donate-form-heading{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#donate-page .donate-amount-buttons button {
+  background-color: #156102;
+  padding: 5px 15px 5px 15px;
+  margin: 0 2% 0 2%;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  box-shadow: 0px 1px 3px 0px grey;
+}
+
+#donate-page .donate-amount-buttons button:hover{
+  cursor: pointer;
+  background-color: #104A02;
+  transition: 0.15s ease;
+}
+
+#donate-page .donate-input-label-wrapper {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+#donate-page .donate-input-label-wrapper div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+#donate-page .donate-button-wrapper {
+  display: flex;
+  align-items: center;
+  height: 25%;
+}
+
+#donate-page .donate-button-wrapper button {
+  font-size: 22px;
+  background-color: #156102;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  box-shadow: 0px 2px 5px 0px grey;
+  margin-top: 20px;
+}
+
+#donate-page .donate-button-wrapper button:hover{
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: #104A02;
+  animation-duration: 0.3s;
+  padding: 5px 20px 5px 20px;
+}
+
+#donate-page .donate-button-wrapper button:active, .donate-amount-buttons button:active {
+  transform: translate(1px,1px);
+}
+
+@media screen and (max-width: 950px){
+  #donate-page .donate-box-wrapper {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #donate-page .donate-amount-buttons button, #donate-form-heading {
+      display: none;
+  }
+
+  #donate-page .donate-input-label-wrapper {
+      flex-direction: column;
+  }
+}
+
+/* DONATE PAGE */
+/* ABOUT US PAGE */
+
+#about-us-page .container{
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+
+  gap: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#about-us-page #flex-img{
+  width: 20%;
+  object-fit: cover;
+  border-radius: 1vw;
+}
+
+#about-us-page .banner {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1000px){
+  #about-us-page #flex-img { display: none; }
+}
+
+/* ABOUT US PAGE */
 /* ERROR PAGE */
 
  #error-page {
@@ -694,10 +877,7 @@ footer img {
 }
 
 /* ERROR PAGE */
-
 /* BANNER */
-
-/* CSS FOR BANNERS */
 
 /* 
 Banners typically look like this:

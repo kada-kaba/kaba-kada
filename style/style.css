@@ -910,7 +910,11 @@ align-items: stretch;
 }
 
 #about-us-page .banner {
-margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+#about-us-page .top-banner {
+  margin-bottom: 5vw;
 }
 
 @media only screen and (max-width: 1000px) {

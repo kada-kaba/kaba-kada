@@ -17,7 +17,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
 
             <div class="logo">
                 <a href = "#">
-                    <img id="leaf" src="../../GIF/leaf.gif" alt="logo"/>
+                    <img id="leaf" src="GIF/leaf.gif" alt="logo"/>
                 </a>
             </div>
 
@@ -48,7 +48,7 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
     <nav>
         <div class="nav-wave"></div>
         <a href="index.html" id="nav-icon">
-            <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
+            <img src ="image/logo/leaf.png" alt = "green leaf logo">
         </a>
         <a href="about-us.html" class="link">ABOUT</a>
         <a href="our-work.html" class="link">OUR WORK</a>

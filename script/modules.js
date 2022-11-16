@@ -5,12 +5,13 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
         this.innerHTML = `
         <footer> 
         <div class="main">
+            <div class="nav-wave-inverted"></div>
             <div class="contact-footer">
             <ul>
                 <li>Contact:</li>
                 <li>Loremipsum@ntnu.no</li>
-                <li>Klostergata 29 Brazil caralho</li>
-                <li>Postnr ellerno idk</li>
+                <li>Addressegata 420</li>
+                <li>+47 12 34 56 78</li>
             </ul>
             </div>
 
@@ -23,13 +24,13 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
             <div class="media">
             <ul>
                 <li>
-                    <a href="#"><img src="../../image/logo/twitter.png" alt="Twitter" /></a>
+                    <a href="https://www.twitter.com/"><img src="../../image/logo/twitter.png" alt="Twitter" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="../../image/logo/youtube.png" alt="YouTube" /></a>
+                    <a href="https://www.youtube.com/"><img src="../../image/logo/youtube.png" alt="YouTube" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="../../image/logo/instagram.png" alt="Instagram" /></a>
+                    <a href="https://www.instagram.com/"><img src="../../image/logo/instagram.png" alt="Instagram" /></a>
                 </li>
             </ul>
             </div>

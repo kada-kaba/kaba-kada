@@ -10,7 +10,7 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
             <ul>
                 <li>Contact:</li>
                 <li>Loremipsum@ntnu.no</li>
-                <li>Klostergata 29 Brazil caralho</li>
+                <li>Addressegata 420</li>
                 <li>+47 12 34 56 78</li>
             </ul>
             </div>

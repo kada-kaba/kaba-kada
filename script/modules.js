@@ -49,25 +49,31 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
         <a href="../index/index.html" id="nav-icon">
             <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
         </a>
-        <a href="../about-us/about-us.html">ABOUT</a>
-        <a href="../our-work/our-work.html">OUR WORK</a>
-        <a href="../contact/contact.html">CONTACT</a>
+        <a href="../about-us/about-us.html" class="link">ABOUT</a>
+        <a href="../our-work/our-work.html" class="link">OUR WORK</a>
+        <a href="../contact/contact.html" class="link">CONTACT</a>
         <div class="dropdown">
             <button class="dropbtn">FOREST</button>
             <div class="dropdown-content">
-                <a href="../forest/amazon.html">AMAZON</a>
-                <a href="../forest/congo.html">CONGO</a>
-                <a href="../forest/sumatra.html">SUMATRA</a>
-                <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
+                <a href="../forest/amazon.html" class="link">AMAZON</a>
+                <a href="../forest/congo.html" class="link">CONGO</a>
+                <a href="../forest/sumatra.html" class="link">SUMATRA</a>
+                <a href="../forest/xishuangbanna.html" class="link">XISHUANGBANNA</a>
             </div>
         </div>
-        <a href="../donate/donate.html" id="donate-button">DONATE</a>
+
+        <a href="../donate/donate.html" id="donate-button" class="link">DONATE</a>
     </nav>`
     }
 }
 
 customElements.define('nav-bar', MyNavbar) // accesses the new custom element made over and creates a new element called "app-footer"
 
-
+{/* <div class="dropdown-content">
+                <a href="../forest/amazon.html">AMAZON</a>
+                <a href="../forest/congo.html">CONGO</a>
+                <a href="../forest/sumatra.html">SUMATRA</a>
+                <a href="../forest/xishuangbanna.html">XISHUANGBANNA</a>
+            </div> */}
 
 // also this video explained it really well: https://www.youtube.com/watch?v=j5Sl6vx_l1s

@@ -215,7 +215,7 @@ footer .main {
   position: relative;
   height: 200px;
   width: 100%;
-  background-color: rgb(15, 15,15);
+  background-color: var(--gray);
   overflow: hidden;
 }
 
@@ -245,7 +245,7 @@ footer #leaf {
 footer .media {
   position: absolute;
   right: 100px;
-  top: 25px;
+  top: 37px;
 }
 
 footer .media img:hover {

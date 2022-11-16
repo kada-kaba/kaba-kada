@@ -47,12 +47,12 @@ class MyNavbar extends HTMLElement { // source : https://stackoverflow.com/quest
     this.innerHTML = ` 
     <nav>
         <div class="nav-wave"></div>
-            <a href="../index/index.html" id="nav-icon">
-                <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
-            </a>
-            <a href="../about-us/about-us.html">ABOUT</a>
-            <a href="../our-work/our-work.html">OUR WORK</a>
-            <a href="../contact/contact.html">CONTACT</a>
+        <a href="../index/index.html" id="nav-icon">
+            <img src ="../../image/logo/leaf.png" alt = "green leaf logo">
+        </a>
+        <a href="../about-us/about-us.html">ABOUT</a>
+        <a href="../our-work/our-work.html">OUR WORK</a>
+        <a href="../contact/contact.html">CONTACT</a>
         <div class="dropdown">
             <button class="dropbtn">FOREST
             </button>

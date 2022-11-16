@@ -278,6 +278,31 @@ cursor: pointer;
 transition: all 300ms ease-in-out;
 }
 
+@media screen and (max-width: 640px) {
+  .contact-footer {
+    font-size: 2vw;
+  }
+
+  .media img {
+    width: 30px;
+  }
+  footer .main {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .media ul {
+    position: relative;
+    right: -20vw;
+
+  }
+  .contact-footer ul {
+    position: relative;
+    left: -10vw;
+  }
+}
+
 /* FOOTER */
 /* INDEX PAGE */
 

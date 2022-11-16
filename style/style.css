@@ -552,7 +552,7 @@ text-align: center;
 .forest-page h4 {
 color: black;
 font-size: 16px;
-font-weight: bold;
+font-weight: bold; 
 text-align: center;
 }
 
@@ -651,20 +651,24 @@ translate: -50%;
 
 .forest-page .info {
     box-shadow: none;
+    width: 80%;
   }
 
   .forest-page .our-work {
     box-shadow: none;
+    width: 80%;
   }
 
 .forest-page .image-container {
     box-shadow: none;
+    width: 80%;
   }
 
   .forest-page img {
+    
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
   }
 
 .forest-page #forest-raised-counter {

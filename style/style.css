@@ -36,7 +36,7 @@ nav {
     justify-content: flex-start;
 }
 
-.nav-wave{
+nav .nav-wave{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -115,11 +115,10 @@ nav #nav-icon img {
 /* Navbar styling  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 
 nav .dropdown {
-  float: left;
   overflow: hidden;
   padding: 0 2vw;
   margin: 0;
-  margin-bottom: -1px;
+  margin-bottom: 3px;
 }
 
 nav .dropdown .dropbtn { /* should style the button so it look like a normal link */
@@ -127,17 +126,17 @@ nav .dropdown .dropbtn { /* should style the button so it look like a normal lin
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding-bottom: 10px;
   background-color: inherit;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 0;
 }
 
 /* Change color of dropdown links on hover */
 nav .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--green);
+  color: var(--green);
 }
+
 /* hides the dropdown content by default */
 nav .dropdown-content {
   display: none;
@@ -173,10 +172,30 @@ nav .dropdown:hover .dropdown-content {
 
 @media screen and (max-width: 1000px){
   nav a {
-    font-size: 3vw;
-    padding-left: 5vw;
+    font-size: 2vw;
+    padding-right: 0;
+    padding-left: 2vw;
   }
-}
+
+  nav .dropdown {
+    padding: 0;
+    font-size: 2vw;
+    margin-bottom: 2px;
+  }
+
+  nav .dropdown .dropbtn {
+    font-size: 2vw;
+    /* padding: 0; */
+    padding-right: 0;
+    padding-left: 2vw;
+  }
+
+  nav #nav-icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
   #donate-button {
       top: auto;
       bottom: -5px;
@@ -184,6 +203,7 @@ nav .dropdown:hover .dropdown-content {
       border-bottom-width: 0.5vw;
       border-radius: 1vw;
   }
+}
 
 
 /* NAV BAR */
@@ -674,176 +694,190 @@ footer img {
   }
 }
 
- /* CONTACT PAGE */
+/* CONTACT PAGE */
+/* DONATE PAGE */
 
+#donate-page .donate-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100vh; */
+  align-items: center;
+}
 
- /* FOOTER  + DROPDOWN NAV*/
+#donate-page .donate-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  border-radius: 17px;
+  box-shadow: -3px 9px 50px -6px rgba(0,0,0,0.7);
+  padding: 20px 0 40px 0;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
 
- .main {
-  margin-top: 20px;
-  position: relative;
-  height: 200px;
+#donate-page .donate-text-wrapper {
+  height: 20%;
+  padding: 20px 60px 50px 60px;
+  font-size: 18px;
+}
+
+#donate-page .donate-input-wrapper {
+  height: 80%;
   width: 100%;
-  background-color: var(--gray);
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.main ul {
-  list-style-type: none;
-}
-
-.contact-footer {
-  position: absolute;
-  top: 50px;
-  left: 50px; 
-  color: white;
-}
-
-.contact-footer ul {
-  font-weight: 500;
-}
-
-.logo {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-}
-
-#leaf {
-  position: absolute;
-  width: 10%;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-}
-
-.media {
-  position: absolute;
-  right: 100px;
-  top: 55px;
-}
-
-.media img:hover {
-  scale: 1.25;
-}
-
-.logo :hover {
-  scale: 1.25;
-}
-
-
-img {
-  width: 40px;
-  cursor: pointer;
-  transition: all 300ms ease-in-out;
-}
-
-/* Dropdown styling  https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-  padding: 0 2vw;
-  margin: 0;
-  margin-bottom: -1px;
-}   
-
-.dropdown .dropbtn { /* should style the button so it look like a normal link */
-  font-size: 1.5vw;    
-  border: none;
+#donate-page .donate-input-wrapper input, #donate-page .donate-input-wrapper select {
+  width: 180px;
+  font-size: 15px;
+  padding: 5px;
   outline: none;
+  border: none;
+  margin-top: 5px;
+}
+
+#donate-page .donate-input-wrapper input{
+  border-bottom: 1px solid rgba(16, 74, 2, 0.5);
+  transition: border-bottom 0.1s;
+}
+
+#donate-page .donate-input-wrapper input:focus{
+  border-bottom: 1.3px solid rgba(16, 74, 2, 1);
+
+}
+
+#donate-page .donate-form-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#donate-page .donate-form-wrapper div{
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#donate-page #donate-form-heading{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#donate-page .donate-amount-buttons button {
+  background-color: #156102;
+  padding: 5px 15px 5px 15px;
+  margin: 0 2% 0 2%;
+  border-radius: 20px;
+  font-size: 18px;
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin: 0; 
+  border: none;
+  box-shadow: 0px 1px 3px 0px grey;
 }
 
-/* Change color of dropdown links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--green);
-}
-/* hides the dropdown content by default */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--gray);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* adds box-shadow to the dropdown content , so that it looks like a card*/
-  z-index: 1;
+#donate-page .donate-amount-buttons button:hover{
+  cursor: pointer;
+  background-color: #104A02;
+  transition: 0.15s ease;
 }
 
-.dropdown-content a {
-  float: none;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  letter-spacing: 1px;
+#donate-page .donate-input-label-wrapper {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 50px;
 }
 
-.dropdown-content a:hover {
-  background-color: var(--green);
+#donate-page .donate-input-label-wrapper div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+#donate-page .donate-button-wrapper {
+  display: flex;
+  align-items: center;
+  height: 25%;
+}
+
+#donate-page .donate-button-wrapper button {
+  font-size: 22px;
+  background-color: #156102;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
   color: white;
+  border: none;
+  box-shadow: 0px 2px 5px 0px grey;
+  margin-top: 20px;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+#donate-page .donate-button-wrapper button:hover{
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: #104A02;
+  animation-duration: 0.3s;
+  padding: 5px 20px 5px 20px;
 }
 
-image {
-  width: 60px !important;
-  height: 60px !important;
+#donate-page .donate-button-wrapper button:active, .donate-amount-buttons button:active {
+  transform: translate(1px,1px);
 }
 
-/* Media queries for footer */
-
-@media screen and (max-width: 768px) {
-  .contact-footer {
-      position: relative;
-      top: 0;
-      left: 0;
-      margin: 0 auto;
-      margin-top: 1vw;
-      width: 100%;
-      text-align: center;
+@media screen and (max-width: 950px){
+  #donate-page .donate-box-wrapper {
+      width: 90%;
   }
-  
-  .logo {
-      position: relative;
-      left: 0;
-      top: 7.5vw;
-      translate: 0 0;
-  }
-
-  .media {
-      position: relative;
-      right: -30vw;
-      top: -10vw;
-      margin: 0 auto;
-      width: 100%;
-      text-align: center;
-  }
-  .media img {
-      width: 30px;
-  }
-  
 }
 
-/* mobile devices */
-@media  screen and (max-width: 500px) {
-  .media {
-    right: -35vw;
+@media screen and (max-width: 500px){
+  #donate-page .donate-amount-buttons button, #donate-form-heading {
+      display: none;
   }
-  
+
+  #donate-page .donate-input-label-wrapper {
+      flex-direction: column;
+  }
 }
 
- /* FOOTER  + DROPDOWN NAV*/
+/* DONATE PAGE */
+/* ABOUT US PAGE */
 
- /* 404 PAGE */
+#about-us-page .container{
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+
+  gap: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#about-us-page #flex-img{
+  width: 20%;
+  object-fit: cover;
+  border-radius: 1vw;
+}
+
+#about-us-page .banner {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1000px){
+  #about-us-page #flex-img { display: none; }
+}
+
+/* ABOUT US PAGE */
+/* ERROR PAGE */
 
  #error-page {
   display: flex;
@@ -854,5 +888,98 @@ image {
   width: 100%;
   background-color: var(--gray);
 }
-  
-/* FOOTER AND DROPDOWN NAV */
+
+/* ERROR PAGE */
+/* BANNER */
+
+/* 
+Banners typically look like this:
+---------------------------
+
+         BIG TEXT
+        small text
+
+---------------------------
+*/
+
+.banner {
+  position: relative;
+
+  margin: 5% 0;
+
+  height: 45vw;
+  width: 100%;
+
+  background-size: cover;
+}
+
+/*
+Class applied to banners situated on the top of a page. 
+These banners are smaller and have 0 margin on the top
+*/
+.top-banner {
+  margin-top: 0;
+  height: 40vw;
+}
+
+.banner-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  align-content: center;
+
+  background-color: rgba(83, 147, 88, 0.5);
+}
+
+.banner h1, .banner h2 {
+  text-align: center;
+  color: white;
+}
+
+.banner h1 { font-size: 7vw; }
+.banner h2 { font-size: 2vw; }
+
+/* Counters start outside the screen so they can be animated in */
+.counter {
+  margin-left: -500%;
+  transition: margin-left 1s;
+}
+
+/* Class applied to counters that can be animated */
+.animated {
+  margin-left: 0;
+}
+
+/* BANNER */
+
+/* WAVE */
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+
+  fill: white;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100%);
+  height: 60px;
+}
+
+.wave-top {
+  top: 0;
+}
+
+.wave-bottom {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+/* WAVE */

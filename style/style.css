@@ -162,7 +162,6 @@ nav .dropdown:hover .dropdown-content {
     font-size: 2vw;
     padding-right: 0;
     padding-left: 2vw;
-
   }
 
   nav .dropdown {
@@ -681,7 +680,8 @@ footer img {
   }
 }
 
- /* CONTACT PAGE */
+/* CONTACT PAGE */
+/* ERROR PAGE */
 
  #error-page {
   display: flex;
@@ -692,3 +692,101 @@ footer img {
   width: 100%;
   background-color: var(--gray);
 }
+
+/* ERROR PAGE */
+
+/* BANNER */
+
+/* CSS FOR BANNERS */
+
+/* 
+Banners typically look like this:
+---------------------------
+
+         BIG TEXT
+        small text
+
+---------------------------
+*/
+
+.banner {
+  position: relative;
+
+  margin: 5% 0;
+
+  height: 45vw;
+  width: 100%;
+
+  background-size: cover;
+}
+
+/*
+Class applied to banners situated on the top of a page. 
+These banners are smaller and have 0 margin on the top
+*/
+.top-banner {
+  margin-top: 0;
+  height: 40vw;
+}
+
+.banner-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  align-content: center;
+
+  background-color: rgba(83, 147, 88, 0.5);
+}
+
+.banner h1, .banner h2 {
+  text-align: center;
+  color: white;
+}
+
+.banner h1 { font-size: 7vw; }
+.banner h2 { font-size: 2vw; }
+
+/* Counters start outside the screen so they can be animated in */
+.counter {
+  margin-left: -500%;
+  transition: margin-left 1s;
+}
+
+/* Class applied to counters that can be animated */
+.animated {
+  margin-left: 0;
+}
+
+/* BANNER */
+
+/* WAVE */
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+
+  fill: white;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100%);
+  height: 60px;
+}
+
+.wave-top {
+  top: 0;
+}
+
+.wave-bottom {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+/* WAVE */

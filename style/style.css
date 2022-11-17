@@ -18,6 +18,10 @@ html {
   color: var(--gray);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* UNIVERSAL */
 /* NAV BAR */
 

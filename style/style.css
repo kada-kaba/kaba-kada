@@ -44,7 +44,7 @@ nav {
 nav .nav-wave {
   position: absolute;
   width: 100%;
-  height: 75%;
+  height: 4vw;
   bottom: 1px;
 
 transform-origin: bottom;
@@ -167,12 +167,6 @@ nav .dropdown:hover .dropdown-content {
 display: block;
 }
 
-@media only screen and (max-width: 800px) {
-  nav {
-    height: 75px;
-  }
-}
-
 @media screen and (max-width: 1000px) {
   nav a {
     font-size: 2vw;
@@ -198,11 +192,11 @@ nav .dropdown {
     margin-bottom: 5px;
   }
 
-  #donate-button {
-    top: auto;
-    bottom: -5px;
+  nav #donate-button {
+    top: auto; 
+    bottom: 0px;
     right: 30px;
-    border-bottom-width: 0.5vw;
+    border-bottom-width: 0.25vw;
     border-radius: 1vw;
   }
 }
@@ -213,10 +207,10 @@ nav .dropdown {
 /* FOOTER */
 
 footer .nav-wave-inverted {
-  position: absolute;
+  position: absolute; 
   width: 100%;
   height: 25%;
-  top: 0;
+  top: 2px;
 
   transform-origin: top;
 
@@ -315,7 +309,7 @@ transition: all 300ms ease-in-out;
 
 #index-page #map-container {
 position: relative;
-margin-top: 100px;
+margin-top: 75px;
 position: relative;
 background-size: cover;
 background-image: url(../image/amazon-large.webp);
@@ -467,7 +461,7 @@ letter-spacing: 4px;
 
 @media only screen and (max-width: 1000px) {
   #index-page #map-container {
-    margin-top: 80px;
+    margin-top: 75px;
   }
 
 #index-page .card {
@@ -562,7 +556,7 @@ text-align: center;
 .forest-page h4 {
 color: black;
 font-size: 16px;
-font-weight: bold;
+font-weight: bold; 
 text-align: center;
 }
 
@@ -661,20 +655,24 @@ translate: -50%;
 
 .forest-page .info {
     box-shadow: none;
+    width: 80%;
   }
 
   .forest-page .our-work {
     box-shadow: none;
+    width: 80%;
   }
 
 .forest-page .image-container {
     box-shadow: none;
+    width: 80%;
   }
 
   .forest-page img {
+    
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
   }
 
 .forest-page #forest-raised-counter {
@@ -732,6 +730,7 @@ padding: 10px 3vw;
 #contact-page #contact-submit-button:hover {
   color: white;
   padding: 10px 5vw;
+  cursor: pointer;
 }
 
 #contact-page #contact-submit-button:active {
@@ -739,7 +738,7 @@ border-bottom-width: 0px;
 margin-top: 0.25vw;
 }
 
-#contact-page #contact-message-wrapper textarea {
+#contact-page .contact-message-wrapper textarea {
   font-size: 16px;
   padding: 15px;
   border-radius: 5px;
@@ -754,7 +753,7 @@ margin-top: 0.25vw;
     margin-top: 20px;
   }
 
-#contact-page #contact-message-wrapper textarea {
+#contact-page .contact-message-wrapper textarea {
     width: 300px;
 }
 }

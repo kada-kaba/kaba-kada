@@ -3,11 +3,11 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
     connectedCallback() {              // https://developer.mozilla.org/en-US/docs/Web/Web_Components
         //  refers back to the class object
         this.innerHTML = ` 
-        <link rel="stylesheet" href="../../css/index.css">
-        <link rel="stylesheet" href="/test.css" 
-        <div class="nav-wave">
-            <footer> 
+        <link rel="stylesheet" href="test.css" />
+        <link rel="stylesheet" href="/style/style.css"> 
+          <footer> 
             <div class="main">
+              <div class="nav-wave-inverted"></div> 
                 <div class="contact-footer">
                 <ul>
                     <li>Contact:</li>
@@ -16,11 +16,11 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                     <li>Postnr ellerno idk</li>
                 </ul>
                 </div>
-
+    
                 <div class="logo">
                 <img id = "leaf" src="/GIF/leaf.gif" alt="logo">
                 </div>
-
+    
                 <div class="media">
                 <ul>
                     <li>
@@ -35,10 +35,11 @@ class MyFooter extends HTMLElement { // source : https://stackoverflow.com/quest
                 </ul>
                 </div>
             </div>
-            </footer>
-    </div>
+          </div>
+        </footer>
         `
     }
 }
 
 window.customElements.define('app-footer', MyFooter) // accesses the new custom element made over and creates a new element called "app-footer"
+

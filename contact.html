@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style/style.css" />
+
+  <link rel="icon" href="image/logo/leaf.ico" type="image/x-ico"/>
+
+  <title>Contact</title>
+</head>
+
+<body id="contact-page">
+  <nav-bar></nav-bar>
+  <div class="banner top-banner" style="background-image: url(image/contact-rainforest.jpg);">
+    <div class="banner-grid">
+      <h1>Contact Us</h1>
+      <div class="wave wave-bottom"></div>
+    </div>
+  </div>
+
+  <div id="contact-info-wrapper">
+    <div id="contact-email-phone-wrapper">
+      <p>
+        Email: <a href="mailto:kadakaba@example.com">Loremipsum@ntnu.no</a>
+      </p>
+      <p>Telephone: <a href="tel:+4746608996">+47 12 34 56 78</a></p>
+    </div>
+    <div class="contact-message-wrapper">
+      <p><label for="contact-message-wrapper">Send us a message:</label></p>
+      <textarea placeholder="Write your message here..." id="contact-message-wrapper" cols="60" rows="10"></textarea>
+    </div>
+    <button id="contact-submit-button">SEND</button>
+  </div>
+  <app-footer></app-footer>
+  <script src = "script/modules.js" type = "module"></script>
+   <script src="script/message-sent.js"></script>
+   <script src="script/wave.js"></script>
+</body>
+
+</html>

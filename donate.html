@@ -5,21 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../style/style.css">
-    <link rel="stylesheet" href="../../style/donate.css">
-    <link rel="stylesheet" href="../../style/utility/wave.css">
-    <link rel="stylesheet" href="../../style/utility/banner.css">
-    <link rel="stylesheet" href="../../style/index.css">
-    <!--<link rel="stylesheet" href="/test.css"!-->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="image/logo/leaf.ico" type="image/x-ico"/>
 
-    <script src = "../../script/navbar.js" defer type = "module"></script>
     <title>Donate</title>
 </head>
-<body>
-
+<body id="donate-page">
     <nav-bar></nav-bar>
 
-    <div class="banner top-banner" style="background-image: url(../../image/donate-image.jpg);">
+    <div class="banner top-banner" style="background-image: url(image/donate-image.jpg);">
         <div class="banner-grid">
             <h1>Donate</h1>
             <div class="wave wave-bottom">
@@ -31,7 +25,7 @@
         <div class="donate-box-wrapper">
             <div class="donate-text-wrapper">
                 <p>Save the rainforest! What we do together over the next few years to conserve forests will determine the fate of our planet.
-                    Your gift makes a tangible difference in the fight to save some of the world’s rarest and most trafficked wildlife, care for communities and protect our planet.
+                    Your gift makes a tangible difference in the fight to save some of the world's rarest and most trafficked wildlife, care for communities and protect our planet.
                     It costs us eleven kroner to plant one new tree in the rainforest. We thank you for your support!</p>
             </div>
             <div class="donate-input-wrapper">
@@ -50,7 +44,7 @@
                         </div>
                         <div>
                             <label for="donate-howoften-input">How often:</label>
-                            <select name="howoften" id="donate-howoften-input" placeholder="0" type="text">
+                            <select name="howoften" id="donate-howoften-input" >
                                 <option value="once">Once</option>
                                 <option selected="selected" value="per week">Per week</option>
                                 <option value="per month">Per month</option>
@@ -76,8 +70,8 @@
         </div>
     </div> 
     <app-footer></app-footer>
-    <script src ="../../script/footer.js" type = "module"></script>
-    <script src="../../script/money-donated.js"></script>
-    <script src="../../script/wave.js"></script>
+    <script src = "script/modules.js" type = "module"></script>
+    <script src="script/money-donated.js"></script>
+    <script src="script/wave.js"></script>
 </body>
 </html>

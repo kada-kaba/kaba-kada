@@ -170,17 +170,17 @@ display: block;
 }
 
 @media screen and (max-width: 1000px) {
-  nav a {
+  nav .link {
     font-size: 2vw;
     padding-right: 0;
     padding-left: 2vw;
   }
 
-nav .dropdown {
-  padding: 0;
-  font-size: 2vw;
-  margin-bottom: 2px;
-}
+  nav .dropdown {
+    padding: 0;
+    /* font-size: 2vw; */
+    margin-bottom: 2px;
+  }
 
   nav .dropdown .dropbtn {
     font-size: 2vw;
@@ -194,7 +194,7 @@ nav .dropdown {
     margin-bottom: 5px;
   }
 
-  #donate-button {
+  nav #donate-button {
     top: auto;
     bottom: -5px;
     right: 30px;

@@ -1,5 +1,5 @@
 
-let textarea = document.getElementById("conatct-message-wrapper")
+let textarea = document.getElementById("cotatct-message-wrapper")
 document.getElementById("contact-submit-button").addEventListener("click", function (){
     if (textarea.value == "") {
         alert("Write a message first.")
